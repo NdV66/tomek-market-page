@@ -2,7 +2,8 @@ import { Component, Inject } from '@angular/core';
 
 import { APP_ENV, langModel } from 'app/appEnv';
 import { TranslationsService } from 'app/services';
-import { EAppLangs, TAppEnv, TTranslations } from 'app/types';
+import { TAppEnv } from 'app/types';
+import { WithTranslationsComponent } from './components';
 
 @Component({
   selector: 'app-root',
@@ -15,25 +16,15 @@ import { EAppLangs, TAppEnv, TTranslations } from 'app/types';
     { provide: 'appEnv', useValue: APP_ENV },
   ],
 })
-export class AppComponent {
-  public translations: TTranslations; //TODO show load until empty!
-
+export class AppComponent extends WithTranslationsComponent {
   constructor(
     @Inject('appEnv') appEnv: TAppEnv,
-    private _translationsService: TranslationsService
+    translationsService: TranslationsService
   ) {
-    this.translations = this._translationsService.getTranslationsByLang(
-      appEnv.defaultLang
-    );
+    super(appEnv, translationsService);
   }
 
-  ngOnInit(): void {
-    this._subscribeToTranslations();
-  }
-
-  private _subscribeToTranslations() {
-    this._translationsService.translations$.subscribe((translations) => {
-      this.translations = translations;
-    });
+  override ngOnInit(): void {
+    super.ngOnInit();
   }
 }

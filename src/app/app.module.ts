@@ -7,9 +7,10 @@ import { NzGridModule } from 'ng-zorro-antd/grid';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AppHeaderModule } from './modules';
+import { WithTranslationsComponent } from './components/with-translations/with-translations.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, WithTranslationsComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
