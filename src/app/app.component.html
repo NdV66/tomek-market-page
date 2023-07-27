@@ -1,0 +1,23 @@
+<nz-layout>
+    <header>
+        <nz-header>
+            <app-app-header></app-app-header>
+        </nz-header>
+    </header>
+
+    <main>
+        <nz-content>
+            <nz-row nzJustify="center" nzAlign="middle">
+                <nz-col nzSpan="18">
+                    I have lang: {{lang}}, {{translations.lang}}
+                    <button nz-button nzType="primary" (click)="handleChangeLangAction('pl-PL')">Primary</button>
+                </nz-col>
+            </nz-row>
+        </nz-content>
+    </main>
+
+    <footer>
+        <nz-footer>Footer</nz-footer>
+    </footer>
+
+</nz-layout>
