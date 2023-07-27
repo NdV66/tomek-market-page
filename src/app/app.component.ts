@@ -23,8 +23,4 @@ export class AppComponent extends WithTranslationsComponent {
   ) {
     super(appEnv, translationsService);
   }
-
-  override ngOnInit(): void {
-    super.ngOnInit();
-  }
 }
