@@ -1,11 +1,12 @@
 import { Inject, Injectable } from '@angular/core';
 import { BehaviorSubject, Observable } from 'rxjs';
 
-import { EAppLangs, TAvailableTranslation } from 'app/types';
+import { EAppLangs, TAvailableTranslation, TTranslations } from 'app/types';
 import { ILangModel } from 'app/models';
 
 export interface ITranslationsService {
   appLang$: Observable<EAppLangs>;
+  translations$: Observable<TTranslations>;
 
   changeLang: (lang: EAppLangs) => void;
   setupFromCookies: () => void;
@@ -17,9 +18,13 @@ export interface ITranslationsService {
 })
 export class TranslationsService implements ITranslationsService {
   private _appLang$: BehaviorSubject<EAppLangs>;
+  private _translations$: BehaviorSubject<TTranslations>;
 
   constructor(@Inject('langModel') private _langModel: ILangModel) {
+    const defaultLang = this.getTranslationsByLang(this._langModel.lang);
     this._appLang$ = new BehaviorSubject(this._langModel.lang);
+    this._translations$ = new BehaviorSubject(defaultLang);
+
     this._subscribeToLang$();
   }
 
@@ -35,6 +40,10 @@ export class TranslationsService implements ITranslationsService {
 
   get appLang$() {
     return this._appLang$.asObservable();
+  }
+
+  get translations$() {
+    return this._translations$.asObservable();
   }
 
   public changeLang = (lang: EAppLangs) => {

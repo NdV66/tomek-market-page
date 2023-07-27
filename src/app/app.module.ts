@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { NzButtonModule } from 'ng-zorro-antd/button';
+
 import { NzLayoutModule } from 'ng-zorro-antd/layout';
 import { NzGridModule } from 'ng-zorro-antd/grid';
 
@@ -14,7 +14,6 @@ import { AppHeaderModule } from './modules';
     BrowserModule,
     AppRoutingModule,
 
-    NzButtonModule,
     NzLayoutModule,
     NzGridModule,
 

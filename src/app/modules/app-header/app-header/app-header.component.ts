@@ -15,8 +15,8 @@ import { EAppLangs, TAppEnv, TTranslations } from 'app/types';
   ],
 })
 export class AppHeaderComponent {
-  lang: EAppLangs;
-  translations: TTranslations;
+  public lang: EAppLangs;
+  public translations: TTranslations;
 
   constructor(
     @Inject('appEnv') appEnv: TAppEnv,
@@ -33,6 +33,7 @@ export class AppHeaderComponent {
   }
 
   public handleChangeLangAction(lang: string) {
+    console.log('>>>> AAA');
     this._translationsService.changeLang(lang as EAppLangs);
   }
 

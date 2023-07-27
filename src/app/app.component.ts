@@ -16,31 +16,24 @@ import { EAppLangs, TAppEnv, TTranslations } from 'app/types';
   ],
 })
 export class AppComponent {
-  lang: EAppLangs;
-  translations: TTranslations;
+  public translations: TTranslations; //TODO show load until empty!
 
   constructor(
     @Inject('appEnv') appEnv: TAppEnv,
     private _translationsService: TranslationsService
   ) {
-    this.lang = appEnv.defaultLang;
     this.translations = this._translationsService.getTranslationsByLang(
-      this.lang
+      appEnv.defaultLang
     );
   }
 
   ngOnInit(): void {
-    this._subscribeToCurrentLang();
+    this._subscribeToTranslations();
   }
 
-  public handleChangeLangAction(lang: string) {
-    this._translationsService.changeLang(lang as EAppLangs);
-  }
-
-  private _subscribeToCurrentLang() {
-    this._translationsService.appLang$.subscribe((lang) => {
-      this.lang = lang;
-      this.translations = this._translationsService.getTranslationsByLang(lang);
+  private _subscribeToTranslations() {
+    this._translationsService.translations$.subscribe((translations) => {
+      this.translations = translations;
     });
   }
 }

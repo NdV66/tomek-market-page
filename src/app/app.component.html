@@ -1,16 +1,13 @@
 <nz-layout>
     <header>
-        <nz-header>
-            <app-app-header></app-app-header>
-        </nz-header>
+        <app-app-header></app-app-header>
     </header>
 
     <main>
         <nz-content>
             <nz-row nzJustify="center" nzAlign="middle">
                 <nz-col nzSpan="18">
-                    I have lang: {{lang}}, {{translations.lang}}
-                    <button nz-button nzType="primary" (click)="handleChangeLangAction('en-EN')">Primary</button>
+                    I have lang: {{translations.lang}}
                 </nz-col>
             </nz-row>
         </nz-content>
