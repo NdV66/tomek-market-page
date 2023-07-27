@@ -1,12 +1,10 @@
 <nz-header>
     <div class="x">
-        <p>title app</p>
+        <p>{{translations.appName}}</p>
 
         <nz-select class="lang-selector">
-            <nz-option nzValue="jack" nzLabel="Jack"></nz-option>
-            <nz-option nzValue="lucy" nzLabel="Lucy"></nz-option>
+            <nz-option *ngFor="let lang of allLangs" nzValue={{lang.value}} nzLabel={{lang.value}}></nz-option>
         </nz-select>
-
     </div>
 
 </nz-header>
