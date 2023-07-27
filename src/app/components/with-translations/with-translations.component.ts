@@ -11,7 +11,7 @@ export class WithTranslationsComponent {
 
   constructor(
     @Inject('appEnv') appEnv: TAppEnv,
-    private _translationsService: TranslationsService
+    protected _translationsService: TranslationsService
   ) {
     this.translations = this._translationsService.getTranslationsByLang(
       appEnv.defaultLang

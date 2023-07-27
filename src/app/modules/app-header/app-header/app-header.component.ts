@@ -1,34 +1,27 @@
 import { Component, Inject } from '@angular/core';
-import { APP_ENV, langModel } from 'app/appEnv';
+
+import { WithTranslationsComponent } from 'app/components';
 import { TranslationsService } from 'app/services';
-import { EAppLangs, TAppEnv, TTranslations } from 'app/types';
+import { EAppLangs, TAppEnv } from 'app/types';
 
 @Component({
   selector: 'app-app-header',
   templateUrl: './app-header.component.html',
   styleUrls: ['./app-header.component.scss'],
-
-  providers: [
-    TranslationsService,
-    { provide: 'langModel', useValue: langModel },
-    { provide: 'appEnv', useValue: APP_ENV },
-  ],
 })
-export class AppHeaderComponent {
+export class AppHeaderComponent extends WithTranslationsComponent {
   public lang: EAppLangs;
-  public translations: TTranslations;
 
   constructor(
     @Inject('appEnv') appEnv: TAppEnv,
-    private _translationsService: TranslationsService
+    _translationsService: TranslationsService
   ) {
+    super(appEnv, _translationsService);
     this.lang = appEnv.defaultLang;
-    this.translations = this._translationsService.getTranslationsByLang(
-      this.lang
-    );
   }
 
-  ngOnInit(): void {
+  override ngOnInit(): void {
+    super.ngOnInit();
     this._subscribeToCurrentLang();
   }
 
