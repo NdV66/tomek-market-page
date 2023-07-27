@@ -1,8 +1,8 @@
 import { Component, Inject } from '@angular/core';
 
-import { APP_ENV, langModel } from './appEnv';
-import { TranslationsService } from './services';
-import { EAppLangs, TAppEnv, TTranslations } from './types';
+import { APP_ENV, langModel } from 'app/appEnv';
+import { TranslationsService } from 'app/services';
+import { EAppLangs, TAppEnv, TTranslations } from 'app/types';
 
 @Component({
   selector: 'app-root',
