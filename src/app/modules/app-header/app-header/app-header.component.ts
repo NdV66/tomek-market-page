@@ -1,13 +1,12 @@
 import { Component, Inject } from '@angular/core';
-
 import { APP_ENV, langModel } from 'app/appEnv';
 import { TranslationsService } from 'app/services';
 import { EAppLangs, TAppEnv, TTranslations } from 'app/types';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
+  selector: 'app-app-header',
+  templateUrl: './app-header.component.html',
+  styleUrls: ['./app-header.component.scss'],
 
   providers: [
     TranslationsService,
@@ -15,7 +14,7 @@ import { EAppLangs, TAppEnv, TTranslations } from 'app/types';
     { provide: 'appEnv', useValue: APP_ENV },
   ],
 })
-export class AppComponent {
+export class AppHeaderComponent {
   lang: EAppLangs;
   translations: TTranslations;
 

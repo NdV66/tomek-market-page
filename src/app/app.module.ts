@@ -6,16 +6,19 @@ import { NzGridModule } from 'ng-zorro-antd/grid';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AppHeaderComponent } from './components';
+import { AppHeaderModule } from './modules';
 
 @NgModule({
-  declarations: [AppComponent, AppHeaderComponent],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
+
     NzButtonModule,
     NzLayoutModule,
     NzGridModule,
+
+    AppHeaderModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
