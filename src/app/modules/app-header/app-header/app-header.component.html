@@ -2,8 +2,8 @@
     <div class="x">
         <p>{{translations.appName}}</p>
 
-        <nz-select class="lang-selector">
-            <nz-option *ngFor="let lang of allLangs" nzValue={{lang.value}} nzLabel={{lang.value}}></nz-option>
+        <nz-select class="lang-selector" [(ngModel)]="lang" (ngModelChange)="handleChangeLangAction($event)">
+            <nz-option *ngFor="let lang of allLangs" nzValue={{lang.key}} nzLabel={{lang.value}}></nz-option>
         </nz-select>
     </div>
 

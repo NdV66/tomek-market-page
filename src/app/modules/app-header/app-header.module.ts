@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -12,6 +13,8 @@ import { AppHeaderComponent } from './app-header/app-header.component';
   imports: [
     CommonModule,
     BrowserAnimationsModule,
+    FormsModule,
+
     NzSelectModule,
     NzLayoutModule,
   ],

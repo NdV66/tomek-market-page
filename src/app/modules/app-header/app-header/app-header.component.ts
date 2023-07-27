@@ -1,8 +1,8 @@
-import { Component, Inject, Input } from '@angular/core';
+import { Component, Inject } from '@angular/core';
 
 import { WithTranslationsComponent } from 'app/components';
 import { TranslationsService } from 'app/services';
-import { EAppLangs, TAppEnv, TAvailableTranslation } from 'app/types';
+import { EAppLangs, TAppEnv } from 'app/types';
 
 @Component({
   selector: 'app-app-header',
@@ -10,9 +10,7 @@ import { EAppLangs, TAppEnv, TAvailableTranslation } from 'app/types';
   styleUrls: ['./app-header.component.scss'],
 })
 export class AppHeaderComponent extends WithTranslationsComponent {
-  @Input() text = 'TEXT HERE';
   public lang: EAppLangs;
-  public allLangs: TAvailableTranslation[];
 
   constructor(
     @Inject('appEnv') appEnv: TAppEnv,
@@ -20,7 +18,10 @@ export class AppHeaderComponent extends WithTranslationsComponent {
   ) {
     super(appEnv, _translationsService);
     this.lang = appEnv.defaultLang;
-    this.allLangs = _translationsService.availableTranslations;
+  }
+
+  get allLangs() {
+    return this._translationsService.availableTranslations;
   }
 
   override ngOnInit(): void {
@@ -29,7 +30,6 @@ export class AppHeaderComponent extends WithTranslationsComponent {
   }
 
   public handleChangeLangAction(lang: string) {
-    console.log('>>>> AAA');
     this._translationsService.changeLang(lang as EAppLangs);
   }
 

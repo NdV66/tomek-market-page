@@ -25,7 +25,6 @@ export class LangModel implements ILangModel {
   }
 
   public getTranslationsByLang(lang: EAppLangs) {
-    console.log(this._mappedTranslations, lang, this._mappedTranslations[lang]);
     return this._mappedTranslations[lang];
   }
 }
