@@ -34,7 +34,7 @@ export class AppComponent {
     this._subscribeToCurrentLang();
   }
 
-  public changeLang(lang: string) {
+  public handleChangeLangAction(lang: string) {
     this._translationsService.changeLang(lang as EAppLangs);
   }
 
