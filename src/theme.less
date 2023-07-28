@@ -6,19 +6,24 @@
 @ok-color: #81B29A;
 @medium-color: #F2CC8F;
 
+@sm-size: 768px;
+@md-size: 992px;
+@lg-size: 1200px;
+@slogan-size: 140px;
+
 @ok-color-l20: lighten(@ok-color, 20%);
 @dark-color-l20: lighten(@dark-color, 20%);
 
+@primary-color: @ok-color;
+@link-color: @primary-color;
+@success-color: @ok-color;
+@warning-color: @danger-color;
+@error-color: @danger-color;
+@font-size-base: 14px;
+@heading-color: @light-color;
+@text-color: @dark-color;
 
-@primary-color: @ok-color; // primary color for all components
-@link-color: @dark-color; // link color
-@success-color: @ok-color; // success state color
-@warning-color: @danger-color; // warning state color
-@error-color: @danger-color; // error state color
-@font-size-base: 14px; // major text font size
-@heading-color: @light-color; // heading text color
-@text-color: @dark-color; // major text color
-@text-color-secondary: rgba(0, 0, 0, 0.45); // secondary text color
+@btn-default-color: @primary-color;
 
 @border-radius-base: 2px; // major border radius
 @border-color-base: @dark-color; // major border color
@@ -35,9 +40,6 @@
 @select-item-active-bg: @dark-color-l20;
 @select-background: @dark-color;
 @select-dropdown-bg: @dark-color;
-
-@select-selection-item-bg: red;
-@select-selection-item-border-color: green;
 
 
 // https://github.com/ant-design/ant-design/blob/4.x-stable/components/style/themes/default.less
