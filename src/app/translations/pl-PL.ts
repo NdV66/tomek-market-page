@@ -19,4 +19,8 @@ export const TRANSLATIONS_PL: TTranslations = {
       { title: 'Ratunku nie wiem', imgName: 'slogan3' },
     ],
   },
+
+  aboutMe: {
+    title: 'Cześć!',
+  },
 };

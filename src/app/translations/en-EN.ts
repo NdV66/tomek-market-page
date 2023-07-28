@@ -19,4 +19,8 @@ export const TRANSLATIONS_EN: TTranslations = {
       { title: 'I dont know what', imgName: 'slogan3' },
     ],
   },
+
+  aboutMe: {
+    title: 'Hello!',
+  },
 };

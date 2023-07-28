@@ -13,4 +13,8 @@ export type TTranslations = {
 
     slogans: { title: string; imgName: string }[];
   };
+
+  aboutMe: {
+    title: string;
+  };
 };

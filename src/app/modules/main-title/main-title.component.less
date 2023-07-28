@@ -1,0 +1,22 @@
+@import '../../../theme.less';
+
+.main-title {
+    padding-top: @section-space * 0.5;
+    position: relative;
+
+    h2 {
+        font-size: @font-size-base * 2.5;
+        font-weight: 600;
+    }
+
+    &::after {
+        @size: 100px;
+        width: @size;
+        height: @size;
+        display: block;
+        content: '';
+        background-color: red;
+        position: absolute;
+        top: @section-space * 0.5;
+    }
+}
