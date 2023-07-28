@@ -15,7 +15,9 @@
     <div class="bg"></div>
 </div>
 
-<div class="slogans">
-    <app-slogan *ngFor="let slogan of translations.jumbotron.slogans" title={{slogan.title}}
-        img={{buildSloganImagePath(slogan.imgName)}} />
-</div>
+<app-section-wrapper>
+    <div class="slogans">
+        <app-slogan *ngFor="let slogan of translations.jumbotron.slogans" title={{slogan.title}}
+            img={{buildSloganImagePath(slogan.imgName)}} />
+    </div>
+</app-section-wrapper>

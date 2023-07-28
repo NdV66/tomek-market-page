@@ -1,14 +1,24 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import { NzTypographyModule } from 'ng-zorro-antd/typography';
+
 import { JumbotronComponent } from './jumbotron.component';
-import { ContactButtonModule } from 'app/modules';
+import { ContactButtonModule } from 'app/modules/contact-button/contact-button.module';
 import { FollowButtonModule } from 'app/modules/follow-button/follow-button.module';
-import { SloganComponent } from './slogan/slogan.component'; //TODO wtf
+import { SloganComponent } from './slogan/slogan.component';
+import { SectionWrapperModule } from 'app/modules/section-wrapper/section-wrapper.module';
 
 @NgModule({
   declarations: [JumbotronComponent, SloganComponent],
-  imports: [CommonModule, ContactButtonModule, FollowButtonModule],
+  imports: [
+    CommonModule,
+    NzTypographyModule,
+
+    ContactButtonModule,
+    FollowButtonModule,
+    SectionWrapperModule,
+  ],
   exports: [JumbotronComponent],
 })
 export class JumbotronModule {}
