@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -9,7 +8,7 @@ import { ContactButtonComponent } from './contact-button.component';
 
 @NgModule({
   declarations: [ContactButtonComponent],
-  imports: [CommonModule, BrowserAnimationsModule, FormsModule, NzButtonModule],
+  imports: [CommonModule, BrowserAnimationsModule, NzButtonModule],
   exports: [ContactButtonComponent],
 })
 export class ContactButtonModule {}
