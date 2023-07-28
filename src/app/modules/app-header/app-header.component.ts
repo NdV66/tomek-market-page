@@ -1,4 +1,4 @@
-import { Component, Inject } from '@angular/core';
+import { Component, Inject, ViewEncapsulation } from '@angular/core';
 
 import { WithTranslationsComponent } from 'app/components';
 import { TranslationsService } from 'app/services';
@@ -8,6 +8,7 @@ import { EAppLangs, TAppEnv } from 'app/types';
   selector: 'app-app-header',
   templateUrl: './app-header.component.html',
   styleUrls: ['./app-header.component.less'],
+  encapsulation: ViewEncapsulation.None,
 })
 export class AppHeaderComponent extends WithTranslationsComponent {
   public selectedLang: EAppLangs;

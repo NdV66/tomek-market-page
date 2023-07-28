@@ -1,6 +1,5 @@
 import { Component, Inject } from '@angular/core';
 
-import { APP_ENV, langModel } from 'app/appEnv';
 import { TranslationsService } from 'app/services';
 import { TAppEnv } from 'app/types';
 import { WithTranslationsComponent } from './components';
@@ -9,12 +8,6 @@ import { WithTranslationsComponent } from './components';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.less'],
-
-  providers: [
-    TranslationsService,
-    { provide: 'langModel', useValue: langModel },
-    { provide: 'appEnv', useValue: APP_ENV },
-  ],
 })
 export class AppComponent extends WithTranslationsComponent {
   constructor(

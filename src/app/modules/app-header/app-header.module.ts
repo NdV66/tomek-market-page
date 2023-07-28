@@ -7,7 +7,7 @@ import { NzSelectModule } from 'ng-zorro-antd/select';
 import { NzLayoutModule } from 'ng-zorro-antd/layout';
 import { NzPageHeaderModule } from 'ng-zorro-antd/page-header';
 
-import { AppHeaderComponent } from './app-header/app-header.component';
+import { AppHeaderComponent } from './app-header.component';
 
 @NgModule({
   declarations: [AppHeaderComponent],

@@ -7,9 +7,11 @@ import { NzGridModule } from 'ng-zorro-antd/grid';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AppHeaderModule } from './modules';
-import { WithTranslationsComponent } from './components/with-translations/with-translations.component';
-
 import { NzConfig, NZ_CONFIG } from 'ng-zorro-antd/core/config';
+import { JumbotronModule } from './modules/jumbotron/jumbotron.module';
+
+import { APP_ENV, langModel } from 'app/appEnv';
+import { TranslationsService } from './services';
 
 const ngZorroConfig: NzConfig = {
   message: { nzTop: 120 },
@@ -17,7 +19,7 @@ const ngZorroConfig: NzConfig = {
 };
 
 @NgModule({
-  declarations: [AppComponent, WithTranslationsComponent],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -26,8 +28,14 @@ const ngZorroConfig: NzConfig = {
     NzGridModule,
 
     AppHeaderModule,
+    JumbotronModule,
   ],
-  providers: [{ provide: NZ_CONFIG, useValue: ngZorroConfig }],
+  providers: [
+    TranslationsService,
+    { provide: NZ_CONFIG, useValue: ngZorroConfig },
+    { provide: 'langModel', useValue: langModel },
+    { provide: 'appEnv', useValue: APP_ENV },
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

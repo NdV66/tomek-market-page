@@ -5,7 +5,9 @@
 @danger-color: #E07A5F;
 @ok-color: #81B29A;
 @medium-color: #F2CC8F;
+
 @ok-color-l20: lighten(@ok-color, 20%);
+@dark-color-l20: lighten(@dark-color, 20%);
 
 
 @primary-color: @ok-color; // primary color for all components
@@ -27,13 +29,15 @@
 @layout-header-color: @light-color;
 @layout-header-height: 78px;
 
-@select-border-color: @light-color;
-@select-item-selected-color: @dark-color;
-@select-item-selected-bg: @ok-color-l20;
-@select-item-active-bg: @ok-color-l20;
-@select-background: @light-color;
-@select-dropdown-bg: @light-color;
+@select-border-color: @dark-color;
+@select-item-selected-color: @light-color;
+@select-item-selected-bg: @dark-color-l20;
+@select-item-active-bg: @dark-color-l20;
+@select-background: @dark-color;
+@select-dropdown-bg: @dark-color;
 
+@select-selection-item-bg: red;
+@select-selection-item-border-color: green;
 
 
 // https://github.com/ant-design/ant-design/blob/4.x-stable/components/style/themes/default.less
