@@ -1,7 +1,8 @@
 <nz-header class="app-header">
-    <p>{{translations.appName}}</p>
+    <span class="app-name">{{translations.appName}}</span>
 
-    <nz-select class="lang-selector" [(ngModel)]="selectedLang" (ngModelChange)="handleChangeLangAction($event)">
+    <nz-select class="lang-selector" [(ngModel)]="selectedLang" (ngModelChange)="handleChangeLangAction($event)"
+        nzSize="default">
         <nz-option *ngFor="let lang of allLangs" nzValue={{lang.key}} nzLabel={{lang.value}}></nz-option>
     </nz-select>
 </nz-header>

@@ -1,8 +1,12 @@
-@light-color: #F4F1DE;
+@white: #f0f2f5;
+// @light-color: #F4F1DE;
+@light-color: @white;
 @dark-color: #3D405B;
 @danger-color: #E07A5F;
 @ok-color: #81B29A;
-@light-dark-color: #F2CC8F;
+@medium-color: #F2CC8F;
+@ok-color-l20: lighten(@ok-color, 20%);
+
 
 @primary-color: @ok-color; // primary color for all components
 @link-color: @dark-color; // link color
@@ -10,17 +14,25 @@
 @warning-color: @danger-color; // warning state color
 @error-color: @danger-color; // error state color
 @font-size-base: 14px; // major text font size
-@heading-color: white; // heading text color
-@text-color: rgba(0, 0, 0, 0.65); // major text color
+@heading-color: @light-color; // heading text color
+@text-color: @dark-color; // major text color
 @text-color-secondary: rgba(0, 0, 0, 0.45); // secondary text color
 
 @border-radius-base: 2px; // major border radius
-@border-color-base: #d9d9d9; // major border color
+@border-color-base: @dark-color; // major border color
 
 @body-background: @light-color;
 
 @layout-header-background: @dark-color;
 @layout-header-color: @light-color;
+
+
+@select-border-color: @light-color;
+@select-item-selected-color: @dark-color;
+@select-item-selected-bg: @ok-color-l20;
+@select-item-active-bg: @ok-color-l20;
+@select-background: @light-color;
+@select-dropdown-bg: @light-color;
 
 // https://github.com/ant-design/ant-design/blob/4.x-stable/components/style/themes/default.less
 // https://coolors.co/palette/f4f1de-e07a5f-3d405b-81b29a-f2cc8f
