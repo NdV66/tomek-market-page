@@ -5,6 +5,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { NzSelectModule } from 'ng-zorro-antd/select';
 import { NzLayoutModule } from 'ng-zorro-antd/layout';
+import { NzPageHeaderModule } from 'ng-zorro-antd/page-header';
 
 import { AppHeaderComponent } from './app-header/app-header.component';
 
@@ -17,6 +18,7 @@ import { AppHeaderComponent } from './app-header/app-header.component';
 
     NzSelectModule,
     NzLayoutModule,
+    NzPageHeaderModule,
   ],
   exports: [AppHeaderComponent],
 })

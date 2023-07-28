@@ -20,11 +20,20 @@ export class AppHeaderComponent extends WithTranslationsComponent {
     this.selectedLang = this.lang;
   }
 
+  override ngOnInit(): void {
+    super.ngOnInit();
+    this._syncSelectedLang();
+  }
+
   get allLangs() {
     return this._translationsService.availableTranslations;
   }
 
   public handleChangeLangAction(lang: string) {
     this._translationsService.changeLang(lang as EAppLangs);
+  }
+
+  private _syncSelectedLang() {
+    this.selectedLang = this.lang;
   }
 }
