@@ -11,6 +11,14 @@
     svg {
         fill: @light-color !important;
     }
+
+    .contact-wrapper {
+        display: inline-block;
+
+        @media screen and (max-width: @sm-size){
+            display: none;
+        }
+    }
 }
 
 .ant-select-selector {
@@ -20,4 +28,9 @@
 
 .ant-select-item {
     color: @light-color;
+}
+
+
+.ant-layout-header {
+    padding: 0
 }

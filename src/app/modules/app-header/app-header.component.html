@@ -8,7 +8,12 @@
                 nzSize="default">
                 <nz-option *ngFor="let lang of allLangs" nzValue={{lang.key}} nzLabel={{lang.value}}></nz-option>
             </nz-select>
-            <app-contact-button></app-contact-button>
+
+
+            <div class="contact-wrapper">
+                <app-contact-button></app-contact-button>
+            </div>
+
         </nz-page-header-extra>
     </nz-page-header>
 </nz-header>

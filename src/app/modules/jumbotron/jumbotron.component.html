@@ -1,10 +1,16 @@
 <div class="jumbotron">
-    <h1>{{translations.jumbotron.title}}</h1>
-    <h2>{{translations.jumbotron.subtitle}}</h2>
+    <div class="content">
+        <h1>{{ translations.jumbotron.title }}</h1>
+        <h2>{{ translations.jumbotron.subtitle }}</h2>
 
-    <app-contact-button></app-contact-button>
+        <div class="contact-wrapper">
+            <app-contact-button></app-contact-button>
+        </div>
 
-    <div class="follow-wrapper">
-        <app-follow-button></app-follow-button>
+        <div class="follow-wrapper">
+            <app-follow-button></app-follow-button>
+        </div>
     </div>
+
+    <div class="bg"></div>
 </div>
