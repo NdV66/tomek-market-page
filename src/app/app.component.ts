@@ -8,7 +8,7 @@ import { WithTranslationsComponent } from './components';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
+  styleUrls: ['./app.component.less'],
 
   providers: [
     TranslationsService,

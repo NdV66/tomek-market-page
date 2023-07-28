@@ -9,6 +9,13 @@ import { AppComponent } from './app.component';
 import { AppHeaderModule } from './modules';
 import { WithTranslationsComponent } from './components/with-translations/with-translations.component';
 
+import { NzConfig, NZ_CONFIG } from 'ng-zorro-antd/core/config';
+
+const ngZorroConfig: NzConfig = {
+  message: { nzTop: 120 },
+  notification: { nzTop: 240 },
+};
+
 @NgModule({
   declarations: [AppComponent, WithTranslationsComponent],
   imports: [
@@ -20,7 +27,7 @@ import { WithTranslationsComponent } from './components/with-translations/with-t
 
     AppHeaderModule,
   ],
-  providers: [],
+  providers: [{ provide: NZ_CONFIG, useValue: ngZorroConfig }],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

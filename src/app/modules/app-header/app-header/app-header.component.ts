@@ -7,7 +7,7 @@ import { EAppLangs, TAppEnv } from 'app/types';
 @Component({
   selector: 'app-app-header',
   templateUrl: './app-header.component.html',
-  styleUrls: ['./app-header.component.scss'],
+  styleUrls: ['./app-header.component.less'],
 })
 export class AppHeaderComponent extends WithTranslationsComponent {
   public selectedLang: EAppLangs;
