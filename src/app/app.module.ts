@@ -10,6 +10,7 @@ import { TranslationsService } from 'app/services';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AboutMeModule } from './modules/about-me/about-me.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -22,6 +23,7 @@ import { AppComponent } from './app.component';
 
     AppHeaderModule,
     JumbotronModule,
+    AboutMeModule,
   ],
   providers: [
     TranslationsService,

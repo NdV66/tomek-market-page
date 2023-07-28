@@ -6,8 +6,8 @@ import { NzTypographyModule } from 'ng-zorro-antd/typography';
 import { JumbotronComponent } from './jumbotron.component';
 import { ContactButtonModule } from 'app/modules/contact-button/contact-button.module';
 import { FollowButtonModule } from 'app/modules/follow-button/follow-button.module';
-import { SloganComponent } from './slogan/slogan.component';
 import { SectionWrapperModule } from 'app/modules/section-wrapper/section-wrapper.module';
+import { SloganComponent } from './slogan/slogan.component';
 
 @NgModule({
   declarations: [JumbotronComponent, SloganComponent],
