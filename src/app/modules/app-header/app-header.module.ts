@@ -8,6 +8,7 @@ import { NzLayoutModule } from 'ng-zorro-antd/layout';
 import { NzPageHeaderModule } from 'ng-zorro-antd/page-header';
 
 import { AppHeaderComponent } from './app-header.component';
+import { ContactButtonModule } from '../contact-button/contact-button.module';
 
 @NgModule({
   declarations: [AppHeaderComponent],
@@ -19,6 +20,8 @@ import { AppHeaderComponent } from './app-header.component';
     NzSelectModule,
     NzLayoutModule,
     NzPageHeaderModule,
+
+    ContactButtonModule,
   ],
   exports: [AppHeaderComponent],
 })
