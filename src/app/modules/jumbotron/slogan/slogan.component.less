@@ -1,14 +1,11 @@
-@import '../../../../theme.less';
+@import '../../../../tools.less';
 
 .slogan-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
+    &:extend(.center-flex);
 }
 
 .slogan-img {
+    &:extend(.img-bg);
     width: @slogan-size;
     height: @slogan-size;
     border: 8px solid @primary-color;
@@ -20,11 +17,6 @@
     }
 
     border-radius: 50%;
-
-
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 
