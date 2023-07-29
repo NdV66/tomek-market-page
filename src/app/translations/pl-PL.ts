@@ -50,5 +50,6 @@ export const TRANSLATIONS_PL: TTranslations = {
         Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
         Sed facilisis lacus eu tempus tincidunt. Donec nec magna eget orci pretium hendrerit.
     `,
+        imgDescription: 'Proin iaculis turpis ornare, blandit lorem sed, facilisis libero, 2023.',
     },
 };

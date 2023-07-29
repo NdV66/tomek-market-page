@@ -24,5 +24,6 @@ export type TTranslations = {
         title: string;
         description: string;
         summary: string;
+        imgDescription: string;
     };
 };

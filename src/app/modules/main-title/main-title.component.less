@@ -1,5 +1,7 @@
 @import "../../../theme.less";
 
+@size: 80px;
+
 .basic-triangle {
     display: block;
     content: "";
@@ -7,13 +9,15 @@
     height: 0;
     position: absolute;
     top: 0;
+    z-index: 5;
+    border-top: @size solid transparent;
+    border-bottom: @size solid transparent;
 }
 
 .main-title {
-    @size: 80px;
-
     padding-top: @section-space * 0.5;
     position: relative;
+
 
     h2 {
         font-size: @font-size-base * 2.5;
@@ -21,19 +25,19 @@
         padding-bottom: 16px;
         padding-top: 16px;
         border-bottom: 1px dashed @ok-color;
+        position: relative;
+        z-index: 10;
+        text-align: left;
     }
 
     &.left::after {
         &:extend(.basic-triangle);
-        border-top: @size solid transparent;
-        border-bottom: @size solid transparent;
         border-left: @size solid @ok-color;
     }
 
     &.right::after {
         &:extend(.basic-triangle);
-        border-top: @size solid transparent;
-        border-bottom: @size solid transparent;
-        border-left: @size solid @ok-color;
+        border-right: @size solid @ok-color;
+        right: 0;
     }
 }
