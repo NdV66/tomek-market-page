@@ -9,9 +9,13 @@
 .together-img {
     &:extend(.img-bg);
     width: 100%;
-    height: 300px;
     background-image: url('../../../assets/bg2.jpg');
     margin-top: 32px;
+    height: 296px;
+
+    @media screen and (min-width: @md-size){
+        height: 600px;
+    }
 }
 
 .img-description {

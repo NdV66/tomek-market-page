@@ -16,7 +16,7 @@ export class WorkComponent extends WithTranslationsComponent {
 
     private _subscribeToChangeTranslations() {
         this._translationsService.translations$.subscribe(() => {
-            console.log('work', this.translations.lang);
+            this.stepsEntries = [];
             for (let [index, value] of this.translations.work.steps.entries()) {
                 this.stepsEntries.push({ index, value });
             }

@@ -3,6 +3,26 @@
 .step-wrapper {
     display: flex;
     align-items: center;
+    margin-bottom: 32px;
 }
 
-.step-number {}
+.step-number {
+    &:extend(.center-flex);
+    @size: 64px;
+    @margin: 32px;
+
+    width: @size;
+    height: @size;
+    min-width: @size;
+    min-height: @size;
+    border-radius: 50%;
+    margin-right: 32px;
+    background-color: @primary-color;
+    color: @light-color;
+    font-weight: 700;
+    font-size: @font-size-base * 1.3;
+
+    @media screen and (min-width: @md-size) {
+        margin-left: (@size + @margin)* (-1);
+    }
+}

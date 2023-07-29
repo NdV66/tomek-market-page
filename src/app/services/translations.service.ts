@@ -34,7 +34,10 @@ export class TranslationsService implements ITranslationsService {
 
     private _subscribeToLang$() {
         this._appLang$.subscribe((lang) => {
+            const translations = this.getTranslationsByLang(lang);
+
             this._langModel.lang = lang;
+            this._translations$.next(translations);
         });
     }
 
@@ -47,7 +50,6 @@ export class TranslationsService implements ITranslationsService {
     }
 
     public changeLang = (lang: EAppLangs) => {
-        console.log('changeLang');
         this._appLang$.next(lang);
     };
 

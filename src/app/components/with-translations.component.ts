@@ -38,7 +38,6 @@ export class WithTranslationsComponent implements IWithTranslationsComponent {
 
     private _subscribeToTranslations() {
         this._translationsService.translations$.subscribe((translations) => {
-            console.log('WithTranslations', translations.lang);
             this._translations = translations;
         });
     }
