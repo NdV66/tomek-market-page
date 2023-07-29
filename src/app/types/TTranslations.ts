@@ -19,4 +19,10 @@ export type TTranslations = {
     description: string;
     summary: string;
   };
+
+  together: {
+    title: string;
+    description: string;
+    summary: string;
+  };
 };

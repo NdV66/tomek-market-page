@@ -1,6 +1,17 @@
-@import '../../../theme.less';
+@import "../../../theme.less";
+
+.basic-triangle {
+    display: block;
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+}
 
 .main-title {
+    @size: 80px;
+
     padding-top: @section-space * 0.5;
     position: relative;
 
@@ -13,16 +24,16 @@
     }
 
     &.left::after {
-        @size: 80px;
-
-        display: block;
-        content: '';
-        width: 0;
-        height: 0;
+        &:extend(.basic-triangle);
         border-top: @size solid transparent;
         border-bottom: @size solid transparent;
         border-left: @size solid @ok-color;
-        position: absolute;
-        top: 0;
+    }
+
+    &.right::after {
+        &:extend(.basic-triangle);
+        border-top: @size solid transparent;
+        border-bottom: @size solid transparent;
+        border-left: @size solid @ok-color;
     }
 }
