@@ -14,6 +14,7 @@ import { TogetherModule } from 'app/modules/together/together.module';
 import { AppHeaderModule } from 'app/modules/app-header/app-header.module';
 import { JumbotronModule } from 'app/modules/jumbotron/jumbotron.module';
 import { WorkModule } from './modules/work/work.module';
+import { GalleryModule } from './modules/gallery/gallery.module';
 
 @NgModule({
     declarations: [AppComponent],
@@ -29,6 +30,7 @@ import { WorkModule } from './modules/work/work.module';
         AboutMeModule,
         TogetherModule,
         WorkModule,
+        GalleryModule,
     ],
     providers: [
         TranslationsService,

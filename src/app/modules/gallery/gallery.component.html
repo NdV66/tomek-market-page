@@ -1,0 +1,13 @@
+<app-main-title title={{translations.gallery.title}} [direction]="direction"></app-main-title>
+
+<app-section-wrapper>
+    <p nz-typography>{{translations.gallery.description}}</p>
+
+    <div class="buttons">
+        <button nz-button nzType="link" nzSize="default" nzShape="round">
+            <a href={{translations.contactLink}} target="_blank" rel="noopener">{{translations.gallery.action}}</a>
+        </button>
+
+        <app-follow-button></app-follow-button>
+    </div>
+</app-section-wrapper>

@@ -60,12 +60,31 @@ export const TRANSLATIONS_PL: TTranslations = {
         Vivamus tempus enim at bibendum consequat. Integer gravida, dui sit amet egestas pellentesque, elit tellus auctor nulla, ac scelerisque nibh ante sit amet odio.
         Curabitur ornare neque non nibh dictum dignissim. Sed bibendum, risus quis cursus dignissim.
     `,
-        summary: 'Sed facilisis lacus eu tempus tincidunt. Donec nec magna eget orci pretium hendrerit.',
         steps: [
             'PL Curabitur ornare neque non nibh dictum dignissim. Sed bibendum, risus quis cursus dignissim, mauris purus ultricies nisl, at lacinia ex orci at risus',
             'PL Vivamus tempus enim at bibendum consequat. Integer gravida, dui sit amet egestas pellentesque',
             'PL Urabitur ornare neque non nibh dictum dignissim. Sed bibendum, risus quis cursus dignissim',
             'PL Proin iaculis turpis ornare, blandit lorem sed, facilisis libero',
+        ],
+    },
+
+    gallery: {
+        title: 'Zerknij na moje projekty!',
+        action: 'Zobacz więcej',
+        description: `
+            Curabitur ornare neque non nibh dictum dignissim. Sed bibendum, risus quis cursus dignissim, mauris purus ultricies nisl, at lacinia ex orci at risus.
+            Vivamus tempus enim at bibendum consequat. Integer gravida, dui sit amet egestas pellentesque.
+        `,
+        images: [
+            { title: 'Curabitur ornare neque non nibh dictum dignissim. 1', imgName: 'project1' },
+            { title: 'Curabitur ornare neque non nibh dictum dignissim. 2', imgName: 'project1' },
+            { title: 'Curabitur ornare neque non nibh dictum dignissim. 3', imgName: 'project1' },
+            { title: 'Curabitur ornare neque non nibh dictum dignissim. 4', imgName: 'project1' },
+            { title: 'Curabitur ornare neque non nibh dictum dignissim. 5', imgName: 'project1' },
+            { title: 'Curabitur ornare neque non nibh dictum dignissim. 6', imgName: 'project1' },
+            { title: 'Curabitur ornare neque non nibh dictum dignissim. 7', imgName: 'project1' },
+            { title: 'Curabitur ornare neque non nibh dictum dignissim. 8', imgName: 'project1' },
+            { title: 'Curabitur ornare neque non nibh dictum dignissim. 9', imgName: 'project1' },
         ],
     },
 };

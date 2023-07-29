@@ -30,7 +30,13 @@ export type TTranslations = {
     work: {
         title: string;
         description: string;
-        summary: string;
         steps: string[];
+    };
+
+    gallery: {
+        title: string;
+        description: string;
+        action: string;
+        images: { title: string; imgName: string }[];
     };
 };
