@@ -7,16 +7,22 @@
     h2 {
         font-size: @font-size-base * 2.5;
         font-weight: 600;
+        padding-bottom: 16px;
+        padding-top: 16px;
+        border-bottom: 1px dashed @ok-color;
     }
 
-    &::after {
-        @size: 100px;
-        width: @size;
-        height: @size;
+    &.left::after {
+        @size: 80px;
+
         display: block;
         content: '';
-        background-color: red;
+        width: 0;
+        height: 0;
+        border-top: @size solid transparent;
+        border-bottom: @size solid transparent;
+        border-left: @size solid @ok-color;
         position: absolute;
-        top: @section-space * 0.5;
+        top: 0;
     }
 }

@@ -16,5 +16,7 @@ export type TTranslations = {
 
   aboutMe: {
     title: string;
+    description: string;
+    summary: string;
   };
 };

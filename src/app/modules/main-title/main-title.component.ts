@@ -1,5 +1,10 @@
 import { Component, Input } from '@angular/core';
 
+export enum EMainTitleDirections {
+  RIGHT = 'right',
+  LEFT = 'left',
+}
+
 @Component({
   selector: 'app-main-title',
   templateUrl: './main-title.component.html',
@@ -7,5 +12,5 @@ import { Component, Input } from '@angular/core';
 })
 export class MainTitleComponent {
   @Input() title = '';
-  @Input() direction = '';
+  @Input() direction: EMainTitleDirections = EMainTitleDirections.LEFT;
 }
