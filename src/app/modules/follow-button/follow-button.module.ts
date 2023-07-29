@@ -6,8 +6,8 @@ import { NzButtonModule } from 'ng-zorro-antd/button';
 import { FollowButtonComponent } from './follow-button.component';
 
 @NgModule({
-  declarations: [FollowButtonComponent],
-  imports: [CommonModule, NzButtonModule],
-  exports: [FollowButtonComponent],
+    declarations: [FollowButtonComponent],
+    imports: [CommonModule, NzButtonModule],
+    exports: [FollowButtonComponent],
 })
 export class FollowButtonModule {}

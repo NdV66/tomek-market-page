@@ -1,6 +1,6 @@
 import { EAppLangs } from './EAppLangs';
 
 export type TAvailableTranslation = {
-  key: EAppLangs;
-  value: string;
+    key: EAppLangs;
+    value: string;
 };

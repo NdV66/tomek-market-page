@@ -15,24 +15,24 @@ import { AppHeaderModule } from 'app/modules/app-header/app-header.module';
 import { JumbotronModule } from 'app/modules/jumbotron/jumbotron.module';
 
 @NgModule({
-  declarations: [AppComponent],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
+    declarations: [AppComponent],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
 
-    NzLayoutModule,
-    NzGridModule,
+        NzLayoutModule,
+        NzGridModule,
 
-    AppHeaderModule,
-    JumbotronModule,
-    AboutMeModule,
-    TogetherModule,
-  ],
-  providers: [
-    TranslationsService,
-    { provide: 'langModel', useValue: langModel },
-    { provide: 'appEnv', useValue: APP_ENV },
-  ],
-  bootstrap: [AppComponent],
+        AppHeaderModule,
+        JumbotronModule,
+        AboutMeModule,
+        TogetherModule,
+    ],
+    providers: [
+        TranslationsService,
+        { provide: 'langModel', useValue: langModel },
+        { provide: 'appEnv', useValue: APP_ENV },
+    ],
+    bootstrap: [AppComponent],
 })
 export class AppModule {}

@@ -5,36 +5,33 @@ import { TranslationsService } from 'app/services';
 import { EAppLangs, TAppEnv } from 'app/types';
 
 @Component({
-  selector: 'app-app-header',
-  templateUrl: './app-header.component.html',
-  styleUrls: ['./app-header.component.less'],
-  encapsulation: ViewEncapsulation.None,
+    selector: 'app-app-header',
+    templateUrl: './app-header.component.html',
+    styleUrls: ['./app-header.component.less'],
+    encapsulation: ViewEncapsulation.None,
 })
 export class AppHeaderComponent extends WithTranslationsComponent {
-  public selectedLang: EAppLangs;
+    public selectedLang: EAppLangs;
 
-  constructor(
-    @Inject('appEnv') appEnv: TAppEnv,
-    _translationsService: TranslationsService
-  ) {
-    super(appEnv, _translationsService);
-    this.selectedLang = this.lang;
-  }
+    constructor(@Inject('appEnv') appEnv: TAppEnv, _translationsService: TranslationsService) {
+        super(appEnv, _translationsService);
+        this.selectedLang = this.lang;
+    }
 
-  override ngOnInit(): void {
-    super.ngOnInit();
-    this._syncSelectedLang();
-  }
+    override ngOnInit(): void {
+        super.ngOnInit();
+        this._syncSelectedLang();
+    }
 
-  get allLangs() {
-    return this._translationsService.availableTranslations;
-  }
+    get allLangs() {
+        return this._translationsService.availableTranslations;
+    }
 
-  public handleChangeLangAction(lang: string) {
-    this._translationsService.changeLang(lang as EAppLangs);
-  }
+    public handleChangeLangAction(lang: string) {
+        this._translationsService.changeLang(lang as EAppLangs);
+    }
 
-  private _syncSelectedLang() {
-    this.selectedLang = this.lang;
-  }
+    private _syncSelectedLang() {
+        this.selectedLang = this.lang;
+    }
 }

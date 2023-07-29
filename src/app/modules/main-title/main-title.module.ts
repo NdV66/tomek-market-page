@@ -7,8 +7,8 @@ import { SectionWrapperModule } from 'app/modules/section-wrapper/section-wrappe
 import { MainTitleComponent } from './main-title.component';
 
 @NgModule({
-  declarations: [MainTitleComponent],
-  imports: [CommonModule, SectionWrapperModule, NzTypographyModule],
-  exports: [MainTitleComponent],
+    declarations: [MainTitleComponent],
+    imports: [CommonModule, SectionWrapperModule, NzTypographyModule],
+    exports: [MainTitleComponent],
 })
 export class MainTitleModule {}

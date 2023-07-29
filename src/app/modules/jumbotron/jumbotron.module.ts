@@ -10,15 +10,8 @@ import { SectionWrapperModule } from 'app/modules/section-wrapper/section-wrappe
 import { SloganComponent } from './slogan/slogan.component';
 
 @NgModule({
-  declarations: [JumbotronComponent, SloganComponent],
-  imports: [
-    CommonModule,
-    NzTypographyModule,
-
-    ContactButtonModule,
-    FollowButtonModule,
-    SectionWrapperModule,
-  ],
-  exports: [JumbotronComponent],
+    declarations: [JumbotronComponent, SloganComponent],
+    imports: [CommonModule, NzTypographyModule, ContactButtonModule, FollowButtonModule, SectionWrapperModule],
+    exports: [JumbotronComponent],
 })
 export class JumbotronModule {}

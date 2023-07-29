@@ -1,0 +1,11 @@
+**/.yarn/*
+tsconfig.spec.json
+tsconfig.json
+tsconfig.app.json
+*.less
+*.html
+*.json
+*.md
+.vscode/
+.prettierrc
+.prettierignore

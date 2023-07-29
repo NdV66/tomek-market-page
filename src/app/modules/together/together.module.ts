@@ -6,8 +6,8 @@ import { SectionWrapperModule } from 'app/modules/section-wrapper/section-wrappe
 import { TogetherComponent } from './together.component';
 
 @NgModule({
-  declarations: [TogetherComponent],
-  imports: [CommonModule, MainTitleModule, SectionWrapperModule],
-  exports: [TogetherComponent],
+    declarations: [TogetherComponent],
+    imports: [CommonModule, MainTitleModule, SectionWrapperModule],
+    exports: [TogetherComponent],
 })
 export class TogetherModule {}

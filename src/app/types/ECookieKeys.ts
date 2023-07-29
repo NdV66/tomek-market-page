@@ -1,3 +1,3 @@
 export enum ECookieKeys {
-  LANG = 'langCookie',
+    LANG = 'langCookie',
 }

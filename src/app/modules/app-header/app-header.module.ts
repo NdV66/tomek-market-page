@@ -11,18 +11,18 @@ import { AppHeaderComponent } from './app-header.component';
 import { ContactButtonModule } from '../contact-button/contact-button.module';
 
 @NgModule({
-  declarations: [AppHeaderComponent],
-  imports: [
-    CommonModule,
-    BrowserAnimationsModule,
-    FormsModule,
+    declarations: [AppHeaderComponent],
+    imports: [
+        CommonModule,
+        BrowserAnimationsModule,
+        FormsModule,
 
-    NzSelectModule,
-    NzLayoutModule,
-    NzPageHeaderModule,
+        NzSelectModule,
+        NzLayoutModule,
+        NzPageHeaderModule,
 
-    ContactButtonModule,
-  ],
-  exports: [AppHeaderComponent],
+        ContactButtonModule,
+    ],
+    exports: [AppHeaderComponent],
 })
 export class AppHeaderModule {}
