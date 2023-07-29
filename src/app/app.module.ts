@@ -13,6 +13,7 @@ import { AboutMeModule } from 'app/modules/about-me/about-me.module';
 import { TogetherModule } from 'app/modules/together/together.module';
 import { AppHeaderModule } from 'app/modules/app-header/app-header.module';
 import { JumbotronModule } from 'app/modules/jumbotron/jumbotron.module';
+import { WorkModule } from './modules/work/work.module';
 
 @NgModule({
     declarations: [AppComponent],
@@ -27,6 +28,7 @@ import { JumbotronModule } from 'app/modules/jumbotron/jumbotron.module';
         JumbotronModule,
         AboutMeModule,
         TogetherModule,
+        WorkModule,
     ],
     providers: [
         TranslationsService,

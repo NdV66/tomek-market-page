@@ -47,6 +47,7 @@ export class TranslationsService implements ITranslationsService {
     }
 
     public changeLang = (lang: EAppLangs) => {
+        console.log('changeLang');
         this._appLang$.next(lang);
     };
 

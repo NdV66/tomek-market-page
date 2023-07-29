@@ -1,0 +1,9 @@
+<app-main-title title={{translations.work.title}}></app-main-title>
+
+<app-section-wrapper>
+    <p nz-typography>{{translations.work.description}}</p>
+
+
+    <app-work-step *ngFor="let step of stepsEntries" title={{step.value}} [stepNumber]="step.index + 1"></app-work-step>
+
+</app-section-wrapper>

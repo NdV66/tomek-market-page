@@ -13,7 +13,7 @@ export interface IWithTranslationsComponent {
 })
 export class WithTranslationsComponent implements IWithTranslationsComponent {
     private _lang: EAppLangs;
-    private _translations: TTranslations; //TODO show load until empty!
+    private _translations: TTranslations;
 
     constructor(
         @Inject('appEnv') appEnv: TAppEnv,
@@ -38,6 +38,7 @@ export class WithTranslationsComponent implements IWithTranslationsComponent {
 
     private _subscribeToTranslations() {
         this._translationsService.translations$.subscribe((translations) => {
+            console.log('WithTranslations', translations.lang);
             this._translations = translations;
         });
     }

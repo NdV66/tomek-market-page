@@ -26,4 +26,11 @@ export type TTranslations = {
         summary: string;
         imgDescription: string;
     };
+
+    work: {
+        title: string;
+        description: string;
+        summary: string;
+        steps: string[];
+    };
 };

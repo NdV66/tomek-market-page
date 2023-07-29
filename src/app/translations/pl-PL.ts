@@ -52,4 +52,20 @@ export const TRANSLATIONS_PL: TTranslations = {
     `,
         imgDescription: 'Proin iaculis turpis ornare, blandit lorem sed, facilisis libero, 2023.',
     },
+
+    work: {
+        title: 'Jak pracuję?',
+        description: `
+        Vestibulum tristique consectetur nunc, eu ullamcorper eros rhoncus eu.
+        Vivamus tempus enim at bibendum consequat. Integer gravida, dui sit amet egestas pellentesque, elit tellus auctor nulla, ac scelerisque nibh ante sit amet odio.
+        Curabitur ornare neque non nibh dictum dignissim. Sed bibendum, risus quis cursus dignissim.
+    `,
+        summary: 'Sed facilisis lacus eu tempus tincidunt. Donec nec magna eget orci pretium hendrerit.',
+        steps: [
+            'PL Curabitur ornare neque non nibh dictum dignissim. Sed bibendum, risus quis cursus dignissim, mauris purus ultricies nisl, at lacinia ex orci at risus',
+            'PL Vivamus tempus enim at bibendum consequat. Integer gravida, dui sit amet egestas pellentesque',
+            'PL Urabitur ornare neque non nibh dictum dignissim. Sed bibendum, risus quis cursus dignissim',
+            'PL Proin iaculis turpis ornare, blandit lorem sed, facilisis libero',
+        ],
+    },
 };
