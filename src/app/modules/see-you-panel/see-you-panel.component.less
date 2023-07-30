@@ -1,41 +1,15 @@
 @import '../../../tools.less';
 
-.jumbotron {
-    &:extend(.panel-image);
-    width: 100%;
-
-    min-height: 600px;
-    position: relative;
-
-    background-image: url('../../../assets/bg.jpg');
-    height: 40vh;
-
-    @media screen and (max-width: @sm-size) {
-        min-height: 400px;
-        height: 400px;
-    }
+.see-you-panel {
+    &:extend(.center-flex);
+    margin: @section-space 0;
 
 
-    &:after {
-        &:extend(.gradient-image-layer);
-    }
-
-    // h1 {
-    //     color: @light-color;
-    //     font-size: @font-size-base * 6;
-    //     margin: 0;
-
-    //     @media screen and (max-width: @sm-size){
-    //         font-size: @font-size-base * 3;
-
-    //     }
-    // }
-
-
-    .content {
-        &:extend(.center-flex, .parent-wh);
-        position: relative;
-        z-index: 10;
+    h2 {
+        color: @dark-color;
+        font-size: @font-size-base * 4;
+        font-family: @manuscript-font-face;
+        margin: 0;
         text-align: center;
     }
 }

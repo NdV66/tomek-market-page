@@ -1,6 +1,7 @@
 @import '../../../tools.less';
 
 .jumbotron {
+    .panel-image(@dark-color);
     height: 60vh;
     min-height: 600px;
     background-image: url('../../../assets/bg.jpg');
@@ -28,13 +29,6 @@
 
     .follow-wrapper {
         margin-top: 16px;
-    }
-
-    .content {
-        &:extend(.center-flex, .parent-wh);
-        position: relative;
-        z-index: 10;
-        text-align: center;
     }
 }
 
