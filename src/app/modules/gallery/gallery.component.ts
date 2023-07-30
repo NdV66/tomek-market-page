@@ -9,4 +9,8 @@ import { EMainTitleDirections } from '../main-title/main-title.component';
 })
 export class GalleryComponent extends WithTranslationsComponent {
     public direction = EMainTitleDirections.RIGHT;
+
+    public buildImgPath(imgName: string) {
+        return `assets/gallery/${imgName}.jpg`;
+    }
 }

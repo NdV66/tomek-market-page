@@ -1,13 +1,19 @@
 <app-main-title title={{translations.gallery.title}} [direction]="direction"></app-main-title>
 
+
 <app-section-wrapper>
     <p nz-typography>{{translations.gallery.description}}</p>
 
-    <div class="buttons">
-        <button nz-button nzType="link" nzSize="default" nzShape="round">
-            <a href={{translations.contactLink}} target="_blank" rel="noopener">{{translations.gallery.action}}</a>
-        </button>
+    <nz-row [nzGutter]="[8, 8]">
+        <nz-col nzSpan="8" *ngFor="let image of translations.gallery.images">
+            <img nz-image [nzSrc]="buildImgPath(image.imgName)" alt={{image.title}} class="gallery-image" />
+        </nz-col>
+    </nz-row>
 
-        <app-follow-button></app-follow-button>
+    <div class="buttons">
+        <app-contact-button text={{translations.gallery.action}}></app-contact-button>
+        <div class="follow-wrapper">
+            <app-follow-button></app-follow-button>
+        </div>
     </div>
 </app-section-wrapper>
