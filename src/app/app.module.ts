@@ -15,6 +15,7 @@ import { AppHeaderModule } from 'app/modules/app-header/app-header.module';
 import { JumbotronModule } from 'app/modules/jumbotron/jumbotron.module';
 import { WorkModule } from './modules/work/work.module';
 import { GalleryModule } from './modules/gallery/gallery.module';
+import { APP_ERRORS } from './appErrors';
 
 @NgModule({
     declarations: [AppComponent],
@@ -36,6 +37,7 @@ import { GalleryModule } from './modules/gallery/gallery.module';
         TranslationsService,
         { provide: 'langModel', useValue: langModel },
         { provide: 'appEnv', useValue: APP_ENV },
+        { provide: 'appErrors', useValue: APP_ERRORS },
     ],
     bootstrap: [AppComponent],
 })

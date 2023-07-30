@@ -85,6 +85,9 @@ export const TRANSLATIONS_PL: TTranslations = {
             { title: 'Curabitur ornare neque non nibh dictum dignissim. 7', imgName: 'project1' },
             { title: 'Curabitur ornare neque non nibh dictum dignissim. 8', imgName: 'project1' },
             { title: 'Curabitur ornare neque non nibh dictum dignissim. 9', imgName: 'project1' },
+            { title: 'Curabitur ornare neque non nibh dictum dignissim. 10', imgName: 'project1' },
+            { title: 'Curabitur ornare neque non nibh dictum dignissim. 11', imgName: 'project1' },
+            { title: 'Curabitur ornare neque non nibh dictum dignissim. 12', imgName: 'project1' },
         ],
     },
 };

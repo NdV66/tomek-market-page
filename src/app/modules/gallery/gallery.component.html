@@ -5,7 +5,7 @@
     <p nz-typography>{{translations.gallery.description}}</p>
 
     <nz-row [nzGutter]="[8, 8]">
-        <nz-col nzSpan="8" *ngFor="let image of translations.gallery.images">
+        <nz-col nzLg="8" nzMd="12" mzSm="12" nzSpan="24" *ngFor="let image of translations.gallery.images">
             <img nz-image [nzSrc]="buildImgPath(image.imgName)" alt={{image.title}} class="gallery-image" />
         </nz-col>
     </nz-row>
