@@ -1,6 +1,7 @@
 # TomekMarketPage
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.5.
+This project is about Tomek's craft - it's only a simple "business card", but online.
 
 ## Development server
 

@@ -39,4 +39,8 @@ export type TTranslations = {
         action: string;
         images: { title: string; imgName: string }[]; //must me divide by 3 and by 2 in the same time!
     };
+
+    seeYou: {
+        title: string;
+    };
 };

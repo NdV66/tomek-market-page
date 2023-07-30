@@ -90,4 +90,8 @@ export const TRANSLATIONS_EN: TTranslations = {
             { title: 'Curabitur ornare neque non nibh dictum dignissim. 12', imgName: 'project1' },
         ],
     },
+
+    seeYou: {
+        title: 'See you on next reeanacment event!',
+    },
 };

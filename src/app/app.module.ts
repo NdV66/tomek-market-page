@@ -6,6 +6,7 @@ import { NzGridModule } from 'ng-zorro-antd/grid';
 
 import { APP_ENV, langModel } from 'app/appEnv';
 import { TranslationsService } from 'app/services';
+import { APP_ERRORS } from './appErrors';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -13,9 +14,10 @@ import { AboutMeModule } from 'app/modules/about-me/about-me.module';
 import { TogetherModule } from 'app/modules/together/together.module';
 import { AppHeaderModule } from 'app/modules/app-header/app-header.module';
 import { JumbotronModule } from 'app/modules/jumbotron/jumbotron.module';
-import { WorkModule } from './modules/work/work.module';
-import { GalleryModule } from './modules/gallery/gallery.module';
-import { APP_ERRORS } from './appErrors';
+
+import { WorkModule } from 'app/modules/work/work.module';
+import { GalleryModule } from 'app/modules/gallery/gallery.module';
+import { SeeYouPanelModule } from 'app/modules/see-you-panel/see-you-panel.module';
 
 @NgModule({
     declarations: [AppComponent],
@@ -32,6 +34,7 @@ import { APP_ERRORS } from './appErrors';
         TogetherModule,
         WorkModule,
         GalleryModule,
+        SeeYouPanelModule,
     ],
     providers: [
         TranslationsService,
