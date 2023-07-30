@@ -94,4 +94,12 @@ export const TRANSLATIONS_EN: TTranslations = {
     seeYou: {
         title: 'See you on next reeanacment event!',
     },
+
+    footer: {
+        title: 'Stay in touch!',
+        email: 'twoj-email@gmail.com',
+        author: 'Created by Marta Zażlak, 2023',
+        authorLink: 'https://www.linkedin.com/in/marta-zazlak/',
+        action: 'Follow me on Facebook',
+    },
 };

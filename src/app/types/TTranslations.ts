@@ -43,4 +43,12 @@ export type TTranslations = {
     seeYou: {
         title: string;
     };
+
+    footer: {
+        title: string;
+        email: string;
+        author: string;
+        authorLink: string;
+        action: string;
+    };
 };

@@ -6,7 +6,7 @@ export const TRANSLATIONS_PL: TTranslations = {
 
     contact: 'Poznajmy się!',
     contactLink: 'https://www.google.pl',
-    follow: 'Śledź mnie na YouTube!',
+    follow: 'Obserwuj mnie na YouTube!',
     followLink: 'https://youtube.com',
 
     jumbotron: {
@@ -93,5 +93,13 @@ export const TRANSLATIONS_PL: TTranslations = {
 
     seeYou: {
         title: 'Do zobaczenia na reko imprezie!',
+    },
+
+    footer: {
+        title: 'Daj mi znać!',
+        email: 'twoj-email@gmail.com',
+        author: 'Created by Marta Zażlak, 2023',
+        authorLink: 'https://www.linkedin.com/in/marta-zazlak/',
+        action: 'Obserwuj mnie na Facebook',
     },
 };

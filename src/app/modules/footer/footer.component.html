@@ -1,0 +1,22 @@
+<nz-footer class="footer">
+    <app-section-wrapper>
+
+
+        <nz-row nzAlign="middle">
+            <nz-col nzSm="12" nzSpan="24">
+                <div class="content">
+                    <h5 nz-typography>{{translations.footer.title}}</h5>
+                    <a [href]="'mailto:' + translations.footer.email">{{translations.footer.email}}</a>
+                    <a href={{translations.footer.authorLink}} class="author">{{translations.footer.author}}</a>
+                </div>
+            </nz-col>
+
+            <nz-col nzSm="12" nzSpan="24">
+                <app-buttons mainActionText={{translations.footer.action}}></app-buttons>
+            </nz-col>
+
+
+        </nz-row>
+
+    </app-section-wrapper>
+</nz-footer>

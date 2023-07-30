@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { NzLayoutModule } from 'ng-zorro-antd/layout';
-import { NzGridModule } from 'ng-zorro-antd/grid';
 
 import { APP_ENV, langModel } from 'app/appEnv';
 import { TranslationsService } from 'app/services';
@@ -18,6 +17,7 @@ import { JumbotronModule } from 'app/modules/jumbotron/jumbotron.module';
 import { WorkModule } from 'app/modules/work/work.module';
 import { GalleryModule } from 'app/modules/gallery/gallery.module';
 import { SeeYouPanelModule } from 'app/modules/see-you-panel/see-you-panel.module';
+import { FooterModule } from 'app/modules/footer/footer.module';
 
 @NgModule({
     declarations: [AppComponent],
@@ -26,7 +26,6 @@ import { SeeYouPanelModule } from 'app/modules/see-you-panel/see-you-panel.modul
         AppRoutingModule,
 
         NzLayoutModule,
-        NzGridModule,
 
         AppHeaderModule,
         JumbotronModule,
@@ -35,6 +34,7 @@ import { SeeYouPanelModule } from 'app/modules/see-you-panel/see-you-panel.modul
         WorkModule,
         GalleryModule,
         SeeYouPanelModule,
+        FooterModule,
     ],
     providers: [
         TranslationsService,

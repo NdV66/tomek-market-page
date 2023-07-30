@@ -8,8 +8,7 @@ import { NzTypographyModule } from 'ng-zorro-antd/typography';
 
 import { SectionWrapperModule } from 'app/modules/section-wrapper/section-wrapper.module';
 import { MainTitleModule } from 'app/modules/main-title/main-title.module';
-import { FollowButtonModule } from 'app/modules/follow-button/follow-button.module';
-import { ContactButtonModule } from 'app/modules/contact-button/contact-button.module';
+import { ButtonsModule } from 'app/modules/buttons/buttons.module';
 
 import { GalleryComponent } from './gallery.component';
 
@@ -25,8 +24,7 @@ import { GalleryComponent } from './gallery.component';
         NzGridModule,
         NzImageModule,
 
-        FollowButtonModule,
-        ContactButtonModule,
+        ButtonsModule,
     ],
     exports: [GalleryComponent],
 })
