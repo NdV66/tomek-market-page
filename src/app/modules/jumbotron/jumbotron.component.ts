@@ -9,6 +9,6 @@ import { WithTranslationsComponent } from 'app/components';
 })
 export class JumbotronComponent extends WithTranslationsComponent {
     public buildSloganImagePath(imgName: string) {
-        return `../../../assets/${imgName}.jpg`;
+        return `assets/${imgName}.png`;
     }
 }

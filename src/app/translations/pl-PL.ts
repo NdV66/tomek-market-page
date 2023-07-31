@@ -11,12 +11,12 @@ export const TRANSLATIONS_PL: TTranslations = {
 
     jumbotron: {
         title: 'Kram Tomka',
-        subtitle: 'rzemiosło & reko',
+        subtitle: 'rzemiosło & rekonstrukcja',
 
         slogans: [
             { title: 'Namioty historyczne', imgName: 'slogan1' },
             { title: 'Szpilki i fibule', imgName: 'slogan2' },
-            { title: 'Ratunku nie wiem', imgName: 'slogan3' },
+            { title: 'Elementy drewniane', imgName: 'slogan3' },
         ],
     },
 
@@ -77,11 +77,11 @@ export const TRANSLATIONS_PL: TTranslations = {
         `,
         images: [
             { title: 'Skórzana bransoletka z miejscem na fiolki', imgName: '1' },
-            { title: 'Miedziane szpilki z naturalnym fioletowym jadeitem', imgName: '2' },
-            { title: 'Miedziane szpilki z naturalnym niebieskiem jadeitem', imgName: '3' },
-            { title: 'Miedziane szpilki z naturalną perłą rzeczną', imgName: '4' },
-            { title: 'Miedziane szpilki z naturalnym czerownym jadeitem', imgName: '5' },
-            { title: 'Rusztowanie historycznego, średniowiecznego namiotu', imgName: '6' },
+            { title: 'Mosiężne szpilki z naturalnym fioletowym jadeitem', imgName: '2' },
+            { title: 'Mosiężne szpilki z naturalnym niebieskiem jadeitem', imgName: '3' },
+            { title: 'Mosiężne szpilki z naturalną perłą rzeczną', imgName: '4' },
+            { title: 'Mosiężne szpilki z naturalnym czerownym jadeitem', imgName: '5' },
+            { title: 'Piasta i napinacze liny do historycznego namiotu', imgName: '6' },
             { title: 'Curabitur ornare neque non nibh dictum dignissim. 7', imgName: '1' },
             { title: 'Curabitur ornare neque non nibh dictum dignissim. 8', imgName: '1' },
             { title: 'Curabitur ornare neque non nibh dictum dignissim. 9', imgName: '1' },
