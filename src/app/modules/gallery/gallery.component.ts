@@ -11,6 +11,6 @@ export class GalleryComponent extends WithTranslationsComponent {
     public direction = EMainTitleDirections.RIGHT;
 
     public buildImgPath(imgName: string) {
-        return `assets/gallery/${imgName}.jpg`;
+        return `assets/gallery/${imgName}.png`;
     }
 }

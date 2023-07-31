@@ -5,7 +5,7 @@ export const TRANSLATIONS_EN: TTranslations = {
     appName: "Tomek's Craft",
 
     contact: "Let's talk!",
-    contactLink: 'https://www.google.pl',
+    contactLink: 'https://www.facebook.com/kramtomka',
     follow: 'Follow me on YouTube!',
     followLink: 'https://youtube.com',
 
@@ -15,8 +15,8 @@ export const TRANSLATIONS_EN: TTranslations = {
 
         slogans: [
             { title: 'Historical tents', imgName: 'slogan1' },
-            { title: 'Historical pins', imgName: 'slogan2' },
-            { title: 'I dont know what', imgName: 'slogan3' },
+            { title: 'Historical pins & jewelry', imgName: 'slogan2' },
+            { title: 'Woodcraft', imgName: 'slogan3' },
         ],
     },
 
@@ -76,18 +76,18 @@ export const TRANSLATIONS_EN: TTranslations = {
             Vivamus tempus enim at bibendum consequat. Integer gravida, dui sit amet egestas pellentesque.
         `,
         images: [
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 1', imgName: 'project2' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 2', imgName: 'project1' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 3', imgName: 'project2' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 4', imgName: 'project1' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 5', imgName: 'project2' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 6', imgName: 'project1' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 7', imgName: 'project2' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 8', imgName: 'project1' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 9', imgName: 'project2' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 10', imgName: 'project1' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 11', imgName: 'project2' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 12', imgName: 'project1' },
+            { title: 'Curabitur ornare neque non nibh dictum dignissim. 1', imgName: '1' },
+            { title: 'Curabitur ornare neque non nibh dictum dignissim. 2', imgName: '2' },
+            { title: 'Curabitur ornare neque non nibh dictum dignissim. 3', imgName: '3' },
+            { title: 'Curabitur ornare neque non nibh dictum dignissim. 4', imgName: '4' },
+            { title: 'Curabitur ornare neque non nibh dictum dignissim. 5', imgName: '5' },
+            { title: 'Curabitur ornare neque non nibh dictum dignissim. 6', imgName: '6' },
+            { title: 'Curabitur ornare neque non nibh dictum dignissim. 7', imgName: '1' },
+            { title: 'Curabitur ornare neque non nibh dictum dignissim. 8', imgName: '1' },
+            { title: 'Curabitur ornare neque non nibh dictum dignissim. 9', imgName: '1' },
+            { title: 'Curabitur ornare neque non nibh dictum dignissim. 10', imgName: '1' },
+            { title: 'Curabitur ornare neque non nibh dictum dignissim. 11', imgName: '1' },
+            { title: 'Curabitur ornare neque non nibh dictum dignissim. 12', imgName: '1' },
         ],
     },
 
