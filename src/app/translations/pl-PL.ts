@@ -69,7 +69,7 @@ export const TRANSLATIONS_PL: TTranslations = {
     },
 
     gallery: {
-        title: 'Zerknij na moje projekty!',
+        title: 'Moje projekty',
         action: 'Zobacz więcej',
         description: `
             Curabitur ornare neque non nibh dictum dignissim. Sed bibendum, risus quis cursus dignissim, mauris purus ultricies nisl, at lacinia ex orci at risus.
