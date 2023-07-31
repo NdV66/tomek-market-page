@@ -76,12 +76,12 @@ export const TRANSLATIONS_PL: TTranslations = {
             Vivamus tempus enim at bibendum consequat. Integer gravida, dui sit amet egestas pellentesque.
         `,
         images: [
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 1', imgName: '1' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 2', imgName: '2' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 3', imgName: '3' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 4', imgName: '4' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 5', imgName: '5' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 6', imgName: '6' },
+            { title: 'Skórzana bransoletka z miejscem na fiolki', imgName: '1' },
+            { title: 'Miedziane szpilki z naturalnym fioletowym jadeitem', imgName: '2' },
+            { title: 'Miedziane szpilki z naturalnym niebieskiem jadeitem', imgName: '3' },
+            { title: 'Miedziane szpilki z naturalną perłą rzeczną', imgName: '4' },
+            { title: 'Miedziane szpilki z naturalnym czerownym jadeitem', imgName: '5' },
+            { title: 'Rusztowanie historycznego, średniowiecznego namiotu', imgName: '6' },
             { title: 'Curabitur ornare neque non nibh dictum dignissim. 7', imgName: '1' },
             { title: 'Curabitur ornare neque non nibh dictum dignissim. 8', imgName: '1' },
             { title: 'Curabitur ornare neque non nibh dictum dignissim. 9', imgName: '1' },
