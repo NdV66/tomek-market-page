@@ -1,0 +1,41 @@
+name: 🚀 Deploy website on push [PROD]
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  web-deploy:
+
+    name: 🚀 Deploy Tomek's Market Page
+    runs-on: ubuntu-latest
+
+    env:
+      SERVER: s59.mydevil.net
+      SERVER_DIR: ./domains/kramtomka.narin.dev/public_html/
+
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v2.3.2
+
+    - name: 😎 Use Node.js 14 LTS
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+
+    - name: 🧰 Install NPM Modules
+      run: npm install
+
+    - name: 🔨 Build Project
+      run: npm run build
+
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@4.0.0
+      with:
+        server: ${{ env.SERVER }}
+        username: ${{ secrets.PROD_USER }}
+        password: ${{ secrets.PROD_PASSWORD }}
+        local-dir: ./dist/
+        server-dir: ${{ env.SERVER_DIR }}
+        dangerous-clean-slate: true
