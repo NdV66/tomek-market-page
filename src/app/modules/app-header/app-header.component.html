@@ -1,0 +1,18 @@
+<nz-header>
+    <nz-page-header [nzGhost]="true" class="app-header">
+        <nz-page-header-title>
+            <img class="logo" src="assets/logo-transparent.png" />
+        </nz-page-header-title>
+
+        <nz-page-header-extra>
+            <nz-select class="lang-selector" [(ngModel)]="selectedLang" (ngModelChange)="handleChangeLangAction($event)"
+                nzSize="default">
+                <nz-option *ngFor="let lang of allLangs" nzValue={{lang.key}} nzLabel={{lang.value}}></nz-option>
+            </nz-select>
+
+            <div class="contact-wrapper">
+                <app-contact-button></app-contact-button>
+            </div>
+        </nz-page-header-extra>
+    </nz-page-header>
+</nz-header>

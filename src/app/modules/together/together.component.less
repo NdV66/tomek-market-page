@@ -1,0 +1,26 @@
+@import "../../../tools.less";
+
+.contact-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 32px;
+}
+
+.together-img {
+    &:extend(.img-bg);
+    width: 100%;
+    background-image: url('assets/bg2.jpg');
+    margin-top: 32px;
+    height: 296px;
+
+    @media screen and (min-width: @md-size){
+        height: 600px;
+    }
+}
+
+.img-description {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    margin-top: 8px;
+}

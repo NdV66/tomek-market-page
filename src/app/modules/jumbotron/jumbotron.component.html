@@ -1,0 +1,15 @@
+<div class="jumbotron">
+    <div class="panel-image-content">
+        <h1>{{ translations.jumbotron.title }}</h1>
+        <h2>{{ translations.jumbotron.subtitle }}</h2>
+
+        <app-buttons></app-buttons>
+    </div>
+</div>
+
+<app-section-wrapper>
+    <div class="slogans">
+        <app-slogan *ngFor="let slogan of translations.jumbotron.slogans" title={{slogan.title}}
+            img={{buildSloganImagePath(slogan.imgName)}} />
+    </div>
+</app-section-wrapper>

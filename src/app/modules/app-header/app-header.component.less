@@ -1,0 +1,45 @@
+@import '../../../theme.less';
+
+.app-header {
+    height: 100%;
+
+    .lang-selector {
+        width: 88px;
+        color: @white;
+    }
+
+    .logo {
+        width: auto;
+        height: 40px;
+    }
+
+    svg {
+        fill: @light-color !important;
+    }
+
+    .contact-wrapper {
+        display: inline-block;
+
+        @media screen and (max-width: @sm-size){
+            display: none;
+        }
+    }
+
+    h3 {
+        color: @light-color;
+        margin: 0;
+    }
+}
+
+.ant-select-selector {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.ant-select-item {
+    color: @light-color;
+}
+
+.ant-layout-header {
+    padding: 0;
+}

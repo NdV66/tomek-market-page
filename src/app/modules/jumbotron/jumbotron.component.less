@@ -1,0 +1,45 @@
+@import '../../../tools.less';
+
+.jumbotron {
+    .panel-image(@dark-color);
+    height: 60vh;
+    min-height: 600px;
+    background-image: url('assets/bg.jpg');
+
+    @media screen and (max-width: @sm-size) {
+        min-height: 400px;
+        height: 400px;
+    }
+
+    h1 {
+        color: @light-color;
+        font-size: @font-size-base * 6;
+        margin: 0;
+        font-family: @header-font-face;
+        text-transform: uppercase;
+
+        @media screen and (max-width: @sm-size){
+            font-size: @font-size-base * 3;
+
+        }
+    }
+
+    h2 {
+        color: @light-color;
+        padding-bottom: 24px;
+    }
+}
+
+.slogans {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: (@slogan-size/2) * -1;
+
+    @media screen and (max-width: @sm-size){
+        margin-top: (@slogan-size-xs/2) * -1;
+    }
+
+    z-index: 20;
+    position: relative;
+}

@@ -1,0 +1,28 @@
+@import '../../../../tools.less';
+
+.slogan-wrapper {
+    &:extend(.center-flex);
+}
+
+.slogan-img {
+    &:extend(.img-bg);
+    width: @slogan-size;
+    height: @slogan-size;
+    border: 8px solid @primary-color;
+
+    @media screen and(max-width: @sm-size) {
+        width: @slogan-size-xs;
+        height: @slogan-size-xs;
+        border: 4px solid @primary-color;
+    }
+
+    border-radius: 50%;
+}
+
+
+.slogan-title {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 16px;
+    text-align: center;
+}
