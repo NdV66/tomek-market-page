@@ -36,6 +36,6 @@ jobs:
         server: ${{ env.SERVER }}
         username: ${{ secrets.PROD_USER }}
         password: ${{ secrets.PROD_PASSWORD }}
-        local-dir: ./dist/
+        local-dir: ./dist/tomek-market-page/
         server-dir: ${{ env.SERVER_DIR }}
         dangerous-clean-slate: true
