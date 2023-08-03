@@ -97,7 +97,7 @@ export const TRANSLATIONS_EN: TTranslations = {
 
     footer: {
         title: 'Stay in touch!',
-        email: 'twoj-email@gmail.com',
+        email: 'kramtomka@gmail.com',
         author: 'Created by Marta Zażlak, 2023',
         authorLink: 'https://www.linkedin.com/in/marta-zazlak/',
         action: 'Follow me on Facebook',
