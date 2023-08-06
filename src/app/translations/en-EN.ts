@@ -11,60 +11,54 @@ export const TRANSLATIONS_EN: TTranslations = {
 
     jumbotron: {
         title: "Tomek's Craft",
-        subtitle: 'craft & tents',
+        subtitle: 'Craft & Reenactment',
 
         slogans: [
-            { title: 'Historical tents', imgName: 'slogan1' },
-            { title: 'Historical pins & jewelry', imgName: 'slogan2' },
-            { title: 'Woodcraft', imgName: 'slogan3' },
+            { title: 'Historical tents', imgName: 'slogan1.png' },
+            { title: 'Historical jewelry', imgName: 'slogan2.png' },
+            { title: 'Woodworking', imgName: 'slogan3.png' },
         ],
     },
 
     aboutMe: {
         title: 'Hello!',
         description: `
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra cursus risus et pharetra. Nullam sed ipsum tellus.
-        Phasellus ut finibus mauris, in pretium sapien.
-        Proin iaculis turpis ornare, blandit lorem sed, facilisis libero.
-        Vestibulum tristique consectetur nunc, eu ullamcorper eros rhoncus eu.
-        Vivamus tempus enim at bibendum consequat. Integer gravida, dui sit amet egestas pellentesque, elit tellus auctor nulla, ac scelerisque nibh ante sit amet odio.
-        Curabitur ornare neque non nibh dictum dignissim. Sed bibendum, risus quis cursus dignissim, mauris purus ultricies nisl, at lacinia ex orci at risus.
+        I am Tomek - a craftsman and enthusiast of historical reenactment. My journey into the world of historical reenactment began around 2008, and during this time, I had the opportunity to explore many charming places in Poland.
+        These days, I specialize in faithfully portraying characters from two fascinating epochs: the Middle Ages, including the period around the Battle of Grunwald, and the 18th century in America.
+        For many years, I have also successfully worked as a programmer in private companies. Learn more about my passion for historical reconstruction and craftsmanship.
     `,
         summary: `
-        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-        Sed facilisis lacus eu tempus tincidunt. Donec nec magna eget orci pretium hendrerit.
-        Nam suscipit sapien ut tristique porta. Donec quis leo tortor.
+        I am an engineer and a reenactor :)
     `,
     },
 
     together: {
         title: "Let's make something together!",
         description: `
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra cursus risus et pharetra. Nullam sed ipsum tellus.
-        Proin iaculis turpis ornare, blandit lorem sed, facilisis libero.
-        Vestibulum tristique consectetur nunc, eu ullamcorper eros rhoncus eu.
-        Vivamus tempus enim at bibendum consequat. Integer gravida, dui sit amet egestas pellentesque, elit tellus auctor nulla, ac scelerisque nibh ante sit amet odio.
-        Curabitur ornare neque non nibh dictum dignissim. Sed bibendum, risus quis cursus dignissim, mauris purus ultricies nisl, at lacinia ex orci at risus.
+        Do you own a shop? Do you participate in various events in Poland? Perhaps even abroad? Feel free to get in touch! My doors are wide open to all forms of collaboration.
+        Whether you need support in creating small elements for your project or if you have semi-finished products in your offering that could enhance my projects - don't hesitate to reach out!
     `,
         summary: `
-        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-        Sed facilisis lacus eu tempus tincidunt. Donec nec magna eget orci pretium hendrerit.
+        Do you have a shop? Do you exhibit at various events in the country and maybe even around Europe? Let's get in touch!
     `,
-        imgDescription: 'Proin iaculis turpis ornare, blandit lorem sed, facilisis libero, 2023.',
+        imgDescription: 'My private pavillon ten after refurbishment, 2023.',
     },
 
     work: {
         title: 'How I work?',
         description: `
-        Vestibulum tristique consectetur nunc, eu ullamcorper eros rhoncus eu.
-        Vivamus tempus enim at bibendum consequat. Integer gravida, dui sit amet egestas pellentesque, elit tellus auctor nulla, ac scelerisque nibh ante sit amet odio.
-        Curabitur ornare neque non nibh dictum dignissim. Sed bibendum, risus quis cursus dignissim.
+        Because crafting is not my primary source of income, and family and home are my top priorities, all established deadlines are solely approximate.
+        Such an approach enables me to maintain the highest quality of products. Additionally, I do not require any deposits. There's no need to worry - you can easily withdraw until final acceptance.
     `,
         steps: [
-            'Curabitur ornare neque non nibh dictum dignissim. Sed bibendum, risus quis cursus dignissim, mauris purus ultricies nisl, at lacinia ex orci at risus',
-            'Vivamus tempus enim at bibendum consequat. Integer gravida, dui sit amet egestas pellentesque',
-            'Urabitur ornare neque non nibh dictum dignissim. Sed bibendum, risus quis cursus dignissim',
-            'Proin iaculis turpis ornare, blandit lorem sed, facilisis libero',
+            'Contact me and provide a rough description of what you need.',
+            'We discuss the details.',
+            'I prepare an initial estimate and inform you about it.',
+            'Your approval and tentative timeline.',
+            'As the deadline approaches, I provide a final estimate.',
+            'Your final approval, and I move forward with acquiring the necessary materials.',
+            'I execute the project. I provide information to you on every step.',
+            "In cases where a project is big, it's easier to pick up the finished product in person. With smaller items, we arrange shipping.",
         ],
     },
 
@@ -72,22 +66,21 @@ export const TRANSLATIONS_EN: TTranslations = {
         title: 'Meet my projects',
         action: 'See more',
         description: `
-            Curabitur ornare neque non nibh dictum dignissim. Sed bibendum, risus quis cursus dignissim, mauris purus ultricies nisl, at lacinia ex orci at risus.
-            Vivamus tempus enim at bibendum consequat. Integer gravida, dui sit amet egestas pellentesque.
+            No challenges are intimidating to me. I engage in various fields in my projects. From accurately setting an axe to sewing a large tent - nothing is impossible for me.
         `,
         images: [
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 1', imgName: '1' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 2', imgName: '2' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 3', imgName: '3' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 4', imgName: '4' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 5', imgName: '5' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 6', imgName: '6' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 7', imgName: '1' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 8', imgName: '1' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 9', imgName: '1' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 10', imgName: '1' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 11', imgName: '1' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 12', imgName: '1' },
+            { title: 'Leather bracelet with places for vials', imgName: '1.jpg' },
+            { title: 'Brass pins with natural violet jade stone', imgName: '2.jpg' },
+            { title: 'Brass pins with natural blue jade stone', imgName: '3.jpg' },
+            { title: 'Brass pins with natural river pearl', imgName: '4.jpg' },
+            { title: 'Brass pins with natural red jade stone', imgName: '5.jpg' },
+            { title: 'Hub and rope tensioners for a historical tent.', imgName: '6.jpg' },
+            { title: 'Wooden bed with fabric', imgName: '7.jpg' },
+            { title: 'Large saxon tent - 4m na 7m', imgName: '8.jpg' },
+            { title: 'Sewing waterskin', imgName: '9.jpg' },
+            { title: 'Leather grommet', imgName: '10.jpg' },
+            { title: 'Brass pins with natural stones', imgName: '11.jpg' },
+            { title: '18th-century Trapper Tents', imgName: '12.jpg' },
         ],
     },
 

@@ -11,60 +11,54 @@ export const TRANSLATIONS_PL: TTranslations = {
 
     jumbotron: {
         title: 'Kram Tomka',
-        subtitle: 'rzemiosło & rekonstrukcja',
+        subtitle: 'Rzemiosło i Rekonstrukcja',
 
         slogans: [
-            { title: 'Namioty historyczne', imgName: 'slogan1' },
-            { title: 'Szpilki i fibule', imgName: 'slogan2' },
-            { title: 'Elementy drewniane', imgName: 'slogan3' },
+            { title: 'Namioty historyczne', imgName: 'slogan1.png' },
+            { title: 'Biżuteria historyczna', imgName: 'slogan2.png' },
+            { title: 'Stolarka', imgName: 'slogan3.png' },
         ],
     },
 
     aboutMe: {
         title: 'Cześć!',
         description: `
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra cursus risus et pharetra. Nullam sed ipsum tellus.
-        Phasellus ut finibus mauris, in pretium sapien.
-        Proin iaculis turpis ornare, blandit lorem sed, facilisis libero.
-        Vestibulum tristique consectetur nunc, eu ullamcorper eros rhoncus eu.
-        Vivamus tempus enim at bibendum consequat. Integer gravida, dui sit amet egestas pellentesque, elit tellus auctor nulla, ac scelerisque nibh ante sit amet odio.
-        Curabitur ornare neque non nibh dictum dignissim. Sed bibendum, risus quis cursus dignissim, mauris purus ultricies nisl, at lacinia ex orci at risus.
-    `,
+        Jestem Tomek - rzemieślnik i pasjonat rekonstrukcji historycznej. Moja podróż w świat historycznych rekonstrukcji rozpoczęła się około 2008 roku, a w tym czasie miałem okazję zwiedzić wiele urokliwych miejsc w Polsce.
+        W chwili obecnej specjalizuję się w wiernym oddaniu postaci z dwóch fascynujących epok: średniowiecza, w tym okresu okołogrunwaldzkiego, oraz XVIII wieku w Ameryce.
+        Przez wiele lat z sukcesem pracuję także jako programista w firmach prywatnych. Dowiedz się więcej o mojej pasji do rekonstrukcji historycznej oraz rzemiosła.
+        `,
         summary: `
-        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-        Sed facilisis lacus eu tempus tincidunt. Donec nec magna eget orci pretium hendrerit.
-        Nam suscipit sapien ut tristique porta. Donec quis leo tortor.
+        Jestem inżynierem i rekonstruktorem :)
     `,
     },
 
     together: {
         title: 'Zróbmy coś razem!',
         description: `
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra cursus risus et pharetra. Nullam sed ipsum tellus.
-        Phasellus ut finibus mauris, in pretium sapien.
-        Vestibulum tristique consectetur nunc, eu ullamcorper eros rhoncus eu.
-        Vivamus tempus enim at bibendum consequat. Integer gravida, dui sit amet egestas pellentesque, elit tellus auctor nulla, ac scelerisque nibh ante sit amet odio.
-        Curabitur ornare neque non nibh dictum dignissim. Sed bibendum, risus quis cursus dignissim, mauris purus ultricies nisl, at lacinia ex orci at risus.
+        Posiadasz sklep? Uczestniczysz w różnorodnych wydarzeniach w kraju, a może nawet za granicą? Zapraszam do kontaktu! Moje drzwi są szeroko otwarte na wszelkie formy współpracy.
+        Niezależnie czy potrzebujesz wsparcia przy tworzeniu drobnych elementów do swojego projektu, czy posiadasz półprodukty w swojej ofercie, które mogłyby wzbogacić moje projekty - śmiało się odezwij!
     `,
         summary: `
-        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-        Sed facilisis lacus eu tempus tincidunt. Donec nec magna eget orci pretium hendrerit.
+        Masz sklep? Wystawiasz się na różnych imprezach w kraju i może europie? Dogadajmy się!
     `,
-        imgDescription: 'Proin iaculis turpis ornare, blandit lorem sed, facilisis libero, 2023.',
+        imgDescription: 'Mój prywatny pawilon jednomasztowy po remoncie, 2023.',
     },
 
     work: {
         title: 'Jak pracuję?',
         description: `
-        Vestibulum tristique consectetur nunc, eu ullamcorper eros rhoncus eu.
-        Vivamus tempus enim at bibendum consequat. Integer gravida, dui sit amet egestas pellentesque, elit tellus auctor nulla, ac scelerisque nibh ante sit amet odio.
-        Curabitur ornare neque non nibh dictum dignissim. Sed bibendum, risus quis cursus dignissim.
+        Ze względu na to, że rękodzieło nie jest moim priorytetowym źródłem dochodu, a najważniejsza jest dla mnie rodzina i dom, wszystkie ustalone terminy są tylko orientacyjne.
+        Takie podejście umożliwia mi utrzymanie najwyższej jakości produktów. Dodatkowo, nie wymagam zaliczek. Nie ma potrzeby obawiać się - z łatwością możesz zrezygnować aż do momentu ostatecznej akceptacji.
     `,
         steps: [
-            'PL Curabitur ornare neque non nibh dictum dignissim. Sed bibendum, risus quis cursus dignissim, mauris purus ultricies nisl, at lacinia ex orci at risus',
-            'PL Vivamus tempus enim at bibendum consequat. Integer gravida, dui sit amet egestas pellentesque',
-            'PL Urabitur ornare neque non nibh dictum dignissim. Sed bibendum, risus quis cursus dignissim',
-            'PL Proin iaculis turpis ornare, blandit lorem sed, facilisis libero',
+            'Skontaktuj się ze mną i określ zgrubnie czego potrzebujesz',
+            'Dogadujemy szczegóły',
+            'Robię wstępną wycenę i informuję o niej',
+            'Akceptacja z Twojej strony, oraz wstępny termin',
+            'Gdy nadchodzi termin robię ostateczną wycenę',
+            'Ostateczna akceptacja z Twojej strony, zakup materiałów z mojej strony',
+            'Wykonuję projekt',
+            'Jeśli to duży projekt to odbierasz osobiście jeśli jest to drobiazg to dogadujemy wysyłkę',
         ],
     },
 
@@ -72,22 +66,21 @@ export const TRANSLATIONS_PL: TTranslations = {
         title: 'Moje projekty',
         action: 'Zobacz więcej',
         description: `
-            Curabitur ornare neque non nibh dictum dignissim. Sed bibendum, risus quis cursus dignissim, mauris purus ultricies nisl, at lacinia ex orci at risus.
-            Vivamus tempus enim at bibendum consequat. Integer gravida, dui sit amet egestas pellentesque.
+            Nie straszne mi są żadne wyzwania, dlatego w moich projektach zajmuję się różnorodnymi dziedzinami. Od precyzyjnego osadzania topora po uszycie dużego namiotu - nie ma dla mnie rzeczy niemożliwych.
         `,
         images: [
-            { title: 'Skórzana bransoletka z miejscem na fiolki', imgName: '1' },
-            { title: 'Mosiężne szpilki z naturalnym fioletowym jadeitem', imgName: '2' },
-            { title: 'Mosiężne szpilki z naturalnym niebieskiem jadeitem', imgName: '3' },
-            { title: 'Mosiężne szpilki z naturalną perłą rzeczną', imgName: '4' },
-            { title: 'Mosiężne szpilki z naturalnym czerownym jadeitem', imgName: '5' },
-            { title: 'Piasta i napinacze liny do historycznego namiotu', imgName: '6' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 7', imgName: '1' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 8', imgName: '1' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 9', imgName: '1' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 10', imgName: '1' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 11', imgName: '1' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 12', imgName: '1' },
+            { title: 'Skórzana bransoletka z miejscem na fiolki', imgName: '1.jpg' },
+            { title: 'Mosiężne szpilki z naturalnym fioletowym jadeitem', imgName: '2.jpg' },
+            { title: 'Mosiężne szpilki z naturalnym niebieskiem jadeitem', imgName: '3.jpg' },
+            { title: 'Mosiężne szpilki z naturalną perłą rzeczną', imgName: '4.jpg' },
+            { title: 'Mosiężne szpilki z naturalnym czerownym jadeitem', imgName: '5.jpg' },
+            { title: 'Piasta i napinacze liny do historycznego namiotu', imgName: '6.jpg' },
+            { title: 'Pasek z klamrą', imgName: '7.jpg' },
+            { title: 'Duży sakson - 4m na 7m', imgName: '8.jpg' },
+            { title: 'Bukłak w trakcie szycia', imgName: '9.jpg' },
+            { title: 'Przelotka skórzana przyszyta do namiotu', imgName: '10.jpg' },
+            { title: 'Mosiężne szpilki z naturalnym kamieniem', imgName: '11.jpg' },
+            { title: 'Namioty traperskie 18 wiek', imgName: '12.jpg' },
         ],
     },
 

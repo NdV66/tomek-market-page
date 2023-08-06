@@ -6,7 +6,7 @@
     <nz-image-group>
         <nz-row [nzGutter]="[8, 8]">
             <nz-col nzLg="8" nzMd="12" mzSm="12" nzSpan="12" *ngFor="let image of translations.gallery.images">
-                <img nz-image [nzSrc]="buildImgPath(image.imgName)" alt={{image.title}} class="gallery-image" />
+                <img nz-image [nzSrc]="'assets/gallery/' + image.imgName" alt={{image.title}} class="gallery-image" />
                 <div class="description">{{image.title}}</div>
             </nz-col>
         </nz-row>
