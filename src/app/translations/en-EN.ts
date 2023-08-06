@@ -2,7 +2,7 @@ import { TTranslations } from 'app/types';
 
 export const TRANSLATIONS_EN: TTranslations = {
     lang: 'English',
-    appName: "Tomek's Craft",
+    appName: "Tomek's Stall",
 
     contact: "Let's talk!",
     contactLink: 'https://www.facebook.com/kramtomka',
@@ -10,7 +10,7 @@ export const TRANSLATIONS_EN: TTranslations = {
     followLink: 'https://www.youtube.com/@kramtomka9638/videos',
 
     jumbotron: {
-        title: "Tomek's Craft",
+        title: "Tomek's Stall",
         subtitle: 'craft & reenactment',
 
         slogans: [
