@@ -6,12 +6,12 @@ export const TRANSLATIONS_PL: TTranslations = {
 
     contact: 'Poznajmy się!',
     contactLink: 'https://www.facebook.com/kramtomka',
-    follow: 'Obserwuj mnie na YouTube!',
+    follow: 'Obserwuj mnie na YouTube',
     followLink: 'https://www.youtube.com/@kramtomka9638/videos',
 
     jumbotron: {
         title: 'Kram Tomka',
-        subtitle: 'Rzemiosło i Rekonstrukcja',
+        subtitle: 'rzemiosło & rekonstrukcja',
 
         slogans: [
             { title: 'Namioty historyczne', imgName: 'slogan1.png' },
@@ -23,23 +23,37 @@ export const TRANSLATIONS_PL: TTranslations = {
     aboutMe: {
         title: 'Cześć!',
         description: `
-        Jestem Tomek - rzemieślnik i pasjonat rekonstrukcji historycznej. Moja podróż w świat historycznych rekonstrukcji rozpoczęła się około 2008 roku, a w tym czasie miałem okazję zwiedzić wiele urokliwych miejsc w Polsce.
-        W chwili obecnej specjalizuję się w wiernym oddaniu postaci z dwóch fascynujących epok: średniowiecza, w tym okresu okołogrunwaldzkiego, oraz XVIII wieku w Ameryce.
-        Przez wiele lat z sukcesem pracuję także jako programista w firmach prywatnych. Dowiedz się więcej o mojej pasji do rekonstrukcji historycznej oraz rzemiosła.
+        Mam na imię <strong>Tomek</strong> i jestem <strong>rzemieślnikiem</strong> oraz <strong>odtwórcą historycznym</strong>.
+        Moja przygoda ze światem rekonstrukcji historycznych trwa już dość długo, od 2008 roku.
+        Pierwszy kontakt z tym niezwykłym hobby miałem w Świebodzinie, mojej rodzinnej miejscowości. To niewielkie miasteczko w województwie lubuskim, w zachodniej Polsce.
+        Miejsce to, chociaż mało znane, ma do zaoferowania bardzo wiele: liczne zabytki i bogate zbiory muzealne.
+        Nic więc dziwnego, że tak szybko odnalazłem w sobie nowe zainteresowania.
+        Z biegiem czasu zaczałem samemu naprawiać czy tworzyć swój sprzęt - a <strong>pasja do rzemiosła</strong> pozostała ze mną do dzisiaj.
         `,
+        preSummary: `
+        Z każdym nowym sezonem rozwijam swoją pasję nie tylko w moich rodzinnych stronach, ale także na licznych wyjazdach rekonstrukcyjnych.
+        To właśnie dzięki nim zwiedziłem wiele urokliwych zakątków Polski i poznałem wspaniałych przyjaciół.`,
         summary: `
-        Jestem inżynierem i rekonstruktorem :)
+        Rzemieślnik, rekonstruktor i inżynier - takie słowa najlepiej do mnie pasują.
+        Specjalizuję się  głownie w wiernym odtwórstwie dwóch fascynujących epok: średniowiecza (przede wszystkim okresu okołogrunwaldzkiego) i XVIII wieku w Ameryce.
     `,
     },
 
     together: {
         title: 'Zróbmy coś razem!',
         description: `
-        Posiadasz sklep? Uczestniczysz w różnorodnych wydarzeniach w kraju, a może nawet za granicą? Zapraszam do kontaktu! Moje drzwi są szeroko otwarte na wszelkie formy współpracy.
-        Niezależnie czy potrzebujesz wsparcia przy tworzeniu drobnych elementów do swojego projektu, czy posiadasz półprodukty w swojej ofercie, które mogłyby wzbogacić moje projekty - śmiało się odezwij!
+        Chodzi Ci po głowie nowy pomysł?
+        W muzeum była ta śliczna szpilka z jadeitem i nie możesz przestać o niej myśleć?
+        A może potrzebujesz nowych strzał?
+        Nie straszne mi są żadne wyzwania.
+        W moich projektach zajmuję się różnorodnymi dziedzinami: od precyzyjnego osadzania topora po uszycie dużego namiotu.
+        Daj mi znać i razem stworzymy coś niesamowitego.
     `,
         summary: `
-        Masz sklep? Wystawiasz się na różnych imprezach w kraju i może europie? Dogadajmy się!
+        Nowy namiot albo stelaż?
+        Szpilki do chusty?
+        A może fibula?
+        Dla mnie nie ma rzeczy niemożliwych.
     `,
         imgDescription: 'Mój prywatny pawilon jednomasztowy po remoncie, 2023.',
     },
@@ -47,26 +61,29 @@ export const TRANSLATIONS_PL: TTranslations = {
     work: {
         title: 'Jak pracuję?',
         description: `
-        Ze względu na to, że rękodzieło nie jest moim priorytetowym źródłem dochodu, a najważniejsza jest dla mnie rodzina i dom, wszystkie ustalone terminy są tylko orientacyjne.
-        Takie podejście umożliwia mi utrzymanie najwyższej jakości produktów. Dodatkowo, nie wymagam zaliczek. Nie ma potrzeby obawiać się - z łatwością możesz zrezygnować aż do momentu ostatecznej akceptacji.
+        Przede wszystkim <strong>profejsonalnie</strong>.
+        Na każdym etapie dbam o <strong>jakość</strong> moich realizacji i wyznaję starą zasadę, że <strong>trwałość i jakość</strong> wyrobów są najlepszą wizytówką rzmieślnika.
+        Twój projekt będzie zatem w najlepszych rękach!
+        Zależy mi także na płynnej komunikacji, zatem często informuję o postepach prac czy dalszych planach.
     `,
         steps: [
-            'Skontaktuj się ze mną i określ zgrubnie czego potrzebujesz',
-            'Dogadujemy szczegóły',
-            'Robię wstępną wycenę i informuję o niej',
-            'Akceptacja z Twojej strony, oraz wstępny termin',
-            'Gdy nadchodzi termin robię ostateczną wycenę',
-            'Ostateczna akceptacja z Twojej strony, zakup materiałów z mojej strony',
-            'Wykonuję projekt',
-            'Jeśli to duży projekt to odbierasz osobiście jeśli jest to drobiazg to dogadujemy wysyłkę',
+            'Wstępna wycena na podstawie uzyskanych informacji',
+            'Akceptacja wstępnej wyceny oraz orientacyjny termin rozpoczęcia realizacji',
+            'Przygotowanie ostatecznej, aktualnej wyceny tuż przed rozpoczeciem projektu',
+            'Akceptacja ostatecznej wyceny i wykonanie projektu',
+            'Gotowe! Wysyłam zlecenie lub odbierasz je osobiście',
         ],
+        summary: `
+        Zmiana planów w trakcie trwania projektu? Nie martw się, to normalna sprawa.
+        Dlatego nie wymagam żadnych zaliczek ani zadatków - aż do momentu akceptacji ostatecznej wyceny i zakupu materiałów z mojej strony.
+        `,
     },
 
     gallery: {
         title: 'Moje projekty',
         action: 'Zobacz więcej',
         description: `
-            Nie straszne mi są żadne wyzwania, dlatego w moich projektach zajmuję się różnorodnymi dziedzinami. Od precyzyjnego osadzania topora po uszycie dużego namiotu - nie ma dla mnie rzeczy niemożliwych.
+           Oto kilka zdjęć z realizacji projektów - na różnych etapach.
         `,
         images: [
             { title: 'Skórzana bransoletka z miejscem na fiolki', imgName: '1.jpg' },

@@ -11,7 +11,7 @@ export const TRANSLATIONS_EN: TTranslations = {
 
     jumbotron: {
         title: "Tomek's Craft",
-        subtitle: 'Craft & Reenactment',
+        subtitle: 'craft & reenactment',
 
         slogans: [
             { title: 'Historical tents', imgName: 'slogan1.png' },
@@ -27,6 +27,7 @@ export const TRANSLATIONS_EN: TTranslations = {
         These days, I specialize in faithfully portraying characters from two fascinating epochs: the Middle Ages, including the period around the Battle of Grunwald, and the 18th century in America.
         For many years, I have also successfully worked as a programmer in private companies. Learn more about my passion for historical reconstruction and craftsmanship.
     `,
+        preSummary: 'DODAJ COS',
         summary: `
         I am an engineer and a reenactor :)
     `,
@@ -60,6 +61,7 @@ export const TRANSLATIONS_EN: TTranslations = {
             'I execute the project. I provide information to you on every step.',
             "In cases where a project is big, it's easier to pick up the finished product in person. With smaller items, we arrange shipping.",
         ],
+        summary: 'xxx',
     },
 
     gallery: {
