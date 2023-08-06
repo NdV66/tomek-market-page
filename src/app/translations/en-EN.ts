@@ -6,7 +6,7 @@ export const TRANSLATIONS_EN: TTranslations = {
 
     contact: "Let's talk!",
     contactLink: 'https://www.facebook.com/kramtomka',
-    follow: 'Follow me on YouTube!',
+    follow: 'Follow me on YouTube',
     followLink: 'https://www.youtube.com/@kramtomka9638/videos',
 
     jumbotron: {
