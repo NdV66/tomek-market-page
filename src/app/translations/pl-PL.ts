@@ -74,8 +74,8 @@ export const TRANSLATIONS_PL: TTranslations = {
             'Gotowe! Wysyłam zlecenie lub odbierasz je osobiście',
         ],
         summary: `
-        Zmiana planów w trakcie trwania projektu? Nie martw się, to normalna sprawa.
-        Dlatego nie wymagam żadnych zaliczek ani zadatków - aż do momentu akceptacji ostatecznej wyceny i zakupu materiałów z mojej strony.
+        Zmiana planów w trakcie trwania projektu? Nie martw się, to normalna sprawa - dlatego nie wymagam żadnych zaliczek ani zadatków.
+        Płatność następuje dopiero po tym, jak wykonam zamówienie.
         `,
     },
 
@@ -84,6 +84,7 @@ export const TRANSLATIONS_PL: TTranslations = {
         action: 'Zobacz więcej',
         description: `
            Oto kilka zdjęć z realizacji projektów - na różnych etapach.
+           Jeśli jesteś ciekawy ich dalszej historii, koniecznie zerknij mojego Facebooka.
         `,
         images: [
             { title: 'Skórzana bransoletka z miejscem na fiolki', imgName: '1.jpg' },

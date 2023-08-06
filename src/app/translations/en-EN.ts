@@ -23,52 +23,69 @@ export const TRANSLATIONS_EN: TTranslations = {
     aboutMe: {
         title: 'Hello!',
         description: `
-        I am Tomek - a craftsman and enthusiast of historical reenactment. My journey into the world of historical reenactment began around 2008, and during this time, I had the opportunity to explore many charming places in Poland.
-        These days, I specialize in faithfully portraying characters from two fascinating epochs: the Middle Ages, including the period around the Battle of Grunwald, and the 18th century in America.
-        For many years, I have also successfully worked as a programmer in private companies. Learn more about my passion for historical reconstruction and craftsmanship.
-    `,
-        preSummary: 'DODAJ COS',
+        My name is <strong>Tomek</strong>, and I am a <strong>craftsman</strong> and <strong>historical reenactor</strong>.
+        My adventure with the world of historical reconstruction has been going on for quite some time since 2008.
+        I had my first contact with this extraordinary hobby in Świebodzin, my hometown. This small town in the Lubuskie Voivodeship in western Poland has a lot to offer: numerous monuments and rich museum collections.
+        So it’s no wonder that I quickly found new interests in myself.
+        Over time, I started repairing or creating my equipment - and the <strong>passion for craftsmanship</strong> remains with me to this day.
+        `,
+        preSummary: `
+        With each new season, I develop my passion not only in my hometown but also on numerous reenactment trips.
+        Thanks to them, I have visited many charming corners of Poland and met wonderful friends.
+        `,
+
         summary: `
-        I am an engineer and a reenactor :)
+        A craftsman, reenactor, and engineer - these are the words that best describe me.
+        I specialize mainly in the accurate recreation of two fascinating eras: the Middle Ages (especially the period around the Battle of Grunwald) and the 18th century in America.
     `,
     },
 
     together: {
         title: "Let's make something together!",
         description: `
-        Do you own a shop? Do you participate in various events in Poland? Perhaps even abroad? Feel free to get in touch! My doors are wide open to all forms of collaboration.
-        Whether you need support in creating small elements for your project or if you have semi-finished products in your offering that could enhance my projects - don't hesitate to reach out!
+        Are you thinking about a new idea?
+        There was this beautiful jade pin at the museum, and you can’t stop thinking about it?
+        Or maybe you need new arrows?
+        No challenge is too big for me.
+        In my projects, I deal with various fields: from precise axe embedding to sewing a large tent.
+        Let me know, and together we will create something wonderful.
     `,
         summary: `
-        Do you have a shop? Do you exhibit at various events in the country and maybe even around Europe? Let's get in touch!
+        A new tent or frame?
+        Hairpins for a scarf?
+        Or maybe a fibula?
+        Nothing is impossible for me.
     `,
-        imgDescription: 'My private pavillon ten after refurbishment, 2023.',
+        imgDescription: 'My private pavillon tent after refurbishment, 2023.',
     },
 
     work: {
         title: 'How I work?',
         description: `
-        Because crafting is not my primary source of income, and family and home are my top priorities, all established deadlines are solely approximate.
-        Such an approach enables me to maintain the highest quality of products. Additionally, I do not require any deposits. There's no need to worry - you can easily withdraw until final acceptance.
+        First of all, <strong>professionally</strong>.
+        At every stage, I care about the <strong>quality</strong> of my work and follow the old rule that the <strong>durability and quality</strong> of products are the best business card of a craftsman.
+        Your project will be in good hands!
+        I also care about smooth communication, so I often inform about work progress or further plans.
     `,
         steps: [
-            'Contact me and provide a rough description of what you need.',
-            'We discuss the details.',
-            'I prepare an initial estimate and inform you about it.',
-            'Your approval and tentative timeline.',
-            'As the deadline approaches, I provide a final estimate.',
-            'Your final approval, and I move forward with acquiring the necessary materials.',
-            'I execute the project. I provide information to you on every step.',
-            "In cases where a project is big, it's easier to pick up the finished product in person. With smaller items, we arrange shipping.",
+            'Preliminary valuation based on the information obtained',
+            'Acceptance of the initial valuation and approximate start date of implementation',
+            'Preparation of the final, current valuation just before the start of the project',
+            'Acceptance of the final valuation and project execution',
+            'Done! I’m sending the order, or you can pick it up in person',
         ],
-        summary: 'xxx',
+        summary: `
+        Change of plans during the project? Don’t worry, it’s normal.
+        That’s why I don’t require any advances or down payments. Payment is made only after I complete the order.
+        `,
     },
 
     gallery: {
         title: 'Meet my projects',
         action: 'See more',
         description: `
-            No challenges are intimidating to me. I engage in various fields in my projects. From accurately setting an axe to sewing a large tent - nothing is impossible for me.
+            Here are some photos from project implementations - at various stages.
+            If you are curious about their further history, be sure to check out my Facebook.
         `,
         images: [
             { title: 'Leather bracelet with places for vials', imgName: '1.jpg' },
@@ -77,7 +94,7 @@ export const TRANSLATIONS_EN: TTranslations = {
             { title: 'Brass pins with natural river pearl', imgName: '4.jpg' },
             { title: 'Brass pins with natural red jade stone', imgName: '5.jpg' },
             { title: 'Hub and rope tensioners for a historical tent.', imgName: '6.jpg' },
-            { title: 'Wooden bed with fabric', imgName: '7.jpg' },
+            { title: 'Belt with buckle', imgName: '7.jpg' },
             { title: 'Large saxon tent - 4m na 7m', imgName: '8.jpg' },
             { title: 'Sewing waterskin', imgName: '9.jpg' },
             { title: 'Leather grommet', imgName: '10.jpg' },
