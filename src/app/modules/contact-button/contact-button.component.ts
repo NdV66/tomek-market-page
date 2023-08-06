@@ -10,17 +10,10 @@ export class ContactButtonComponent extends WithTranslationsComponent {
 
     override ngOnInit(): void {
         super.ngOnInit();
-        console.log(this.text);
-        // const textIsProvided = this.text === this.translations.contact;
+        const textIsProvided = this.text === this.translations.contact;
 
-        // !textIsProvided &&
-        //     this._translationsService.translations$.subscribe((translations) => {
-        //         this.text = translations.contact;
-        //     });
-    }
-
-    ngOnChanges() {
-        console.log('CHANGE', this.text);
-        this.text = this.text || this.translations.contact;
+        this._translationsService.translations$.subscribe((translations) => {
+            !textIsProvided && (this.text = translations.contact);
+        });
     }
 }
