@@ -7,5 +7,5 @@ import { WithTranslationsComponent } from 'app/components';
     styleUrls: ['./buttons.component.less'],
 })
 export class ButtonsComponent extends WithTranslationsComponent {
-    @Input() public mainActionText = this.translations.contact;
+    @Input() public mainActionText = '';
 }

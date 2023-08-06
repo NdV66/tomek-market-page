@@ -10,13 +10,13 @@ export type TTranslations = {
     jumbotron: {
         title: string;
         subtitle: string;
-
         slogans: { title: string; imgName: string }[];
     };
 
     aboutMe: {
         title: string;
         description: string;
+        preSummary: string;
         summary: string;
     };
 
@@ -31,6 +31,7 @@ export type TTranslations = {
         title: string;
         description: string;
         steps: string[];
+        summary: string;
     };
 
     gallery: {

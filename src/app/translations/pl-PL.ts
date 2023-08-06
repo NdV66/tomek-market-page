@@ -6,7 +6,7 @@ export const TRANSLATIONS_PL: TTranslations = {
 
     contact: 'Poznajmy się!',
     contactLink: 'https://www.facebook.com/kramtomka',
-    follow: 'Obserwuj mnie na YouTube!',
+    follow: 'Obserwuj mnie na YouTube',
     followLink: 'https://www.youtube.com/@kramtomka9638/videos',
 
     jumbotron: {
@@ -14,80 +14,91 @@ export const TRANSLATIONS_PL: TTranslations = {
         subtitle: 'rzemiosło & rekonstrukcja',
 
         slogans: [
-            { title: 'Namioty historyczne', imgName: 'slogan1' },
-            { title: 'Szpilki i fibule', imgName: 'slogan2' },
-            { title: 'Elementy drewniane', imgName: 'slogan3' },
+            { title: 'Namioty historyczne', imgName: 'slogan1.png' },
+            { title: 'Biżuteria historyczna', imgName: 'slogan2.png' },
+            { title: 'Stolarka', imgName: 'slogan3.png' },
         ],
     },
 
     aboutMe: {
         title: 'Cześć!',
         description: `
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra cursus risus et pharetra. Nullam sed ipsum tellus.
-        Phasellus ut finibus mauris, in pretium sapien.
-        Proin iaculis turpis ornare, blandit lorem sed, facilisis libero.
-        Vestibulum tristique consectetur nunc, eu ullamcorper eros rhoncus eu.
-        Vivamus tempus enim at bibendum consequat. Integer gravida, dui sit amet egestas pellentesque, elit tellus auctor nulla, ac scelerisque nibh ante sit amet odio.
-        Curabitur ornare neque non nibh dictum dignissim. Sed bibendum, risus quis cursus dignissim, mauris purus ultricies nisl, at lacinia ex orci at risus.
-    `,
+        Mam na imię <strong>Tomek</strong> i jestem <strong>rzemieślnikiem</strong> oraz <strong>odtwórcą historycznym</strong>.
+        Moja przygoda ze światem rekonstrukcji historycznych trwa już dość długo, od 2008 roku.
+        Pierwszy kontakt z tym niezwykłym hobby miałem w Świebodzinie, mojej rodzinnej miejscowości. To niewielkie miasteczko w województwie lubuskim, w zachodniej Polsce.
+        Miejsce to, chociaż mało znane, ma do zaoferowania bardzo wiele: liczne zabytki i bogate zbiory muzealne.
+        Nic więc dziwnego, że tak szybko odnalazłem w sobie nowe zainteresowania.
+        Z biegiem czasu zaczałem samemu naprawiać czy tworzyć swój sprzęt - a <strong>pasja do rzemiosła</strong> pozostała ze mną do dzisiaj.
+        `,
+        preSummary: `
+        Z każdym nowym sezonem rozwijam swoją pasję nie tylko w moich rodzinnych stronach, ale także na licznych wyjazdach rekonstrukcyjnych.
+        To właśnie dzięki nim zwiedziłem wiele urokliwych zakątków Polski i poznałem wspaniałych przyjaciół.`,
         summary: `
-        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-        Sed facilisis lacus eu tempus tincidunt. Donec nec magna eget orci pretium hendrerit.
-        Nam suscipit sapien ut tristique porta. Donec quis leo tortor.
+        Rzemieślnik, rekonstruktor i inżynier - takie słowa najlepiej do mnie pasują.
+        Specjalizuję się  głownie w wiernym odtwórstwie dwóch fascynujących epok: średniowiecza (przede wszystkim okresu okołogrunwaldzkiego) i XVIII wieku w Ameryce.
     `,
     },
 
     together: {
         title: 'Zróbmy coś razem!',
         description: `
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra cursus risus et pharetra. Nullam sed ipsum tellus.
-        Phasellus ut finibus mauris, in pretium sapien.
-        Vestibulum tristique consectetur nunc, eu ullamcorper eros rhoncus eu.
-        Vivamus tempus enim at bibendum consequat. Integer gravida, dui sit amet egestas pellentesque, elit tellus auctor nulla, ac scelerisque nibh ante sit amet odio.
-        Curabitur ornare neque non nibh dictum dignissim. Sed bibendum, risus quis cursus dignissim, mauris purus ultricies nisl, at lacinia ex orci at risus.
+        Chodzi Ci po głowie nowy pomysł?
+        W muzeum była ta śliczna szpilka z jadeitem i nie możesz przestać o niej myśleć?
+        A może potrzebujesz nowych strzał?
+        Nie straszne mi są żadne wyzwania.
+        W moich projektach zajmuję się różnorodnymi dziedzinami: od precyzyjnego osadzania topora po uszycie dużego namiotu.
+        Daj mi znać i razem stworzymy coś niesamowitego.
     `,
         summary: `
-        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-        Sed facilisis lacus eu tempus tincidunt. Donec nec magna eget orci pretium hendrerit.
+        Nowy namiot albo stelaż?
+        Szpilki do chusty?
+        A może fibula?
+        Dla mnie nie ma rzeczy niemożliwych.
     `,
-        imgDescription: 'Proin iaculis turpis ornare, blandit lorem sed, facilisis libero, 2023.',
+        imgDescription: 'Mój prywatny pawilon jednomasztowy po remoncie, 2023.',
     },
 
     work: {
         title: 'Jak pracuję?',
         description: `
-        Vestibulum tristique consectetur nunc, eu ullamcorper eros rhoncus eu.
-        Vivamus tempus enim at bibendum consequat. Integer gravida, dui sit amet egestas pellentesque, elit tellus auctor nulla, ac scelerisque nibh ante sit amet odio.
-        Curabitur ornare neque non nibh dictum dignissim. Sed bibendum, risus quis cursus dignissim.
+        Przede wszystkim <strong>profejsonalnie</strong>.
+        Na każdym etapie dbam o <strong>jakość</strong> moich realizacji i wyznaję starą zasadę, że <strong>trwałość i jakość</strong> wyrobów są najlepszą wizytówką rzmieślnika.
+        Twój projekt będzie zatem w najlepszych rękach!
+        Zależy mi także na płynnej komunikacji, zatem często informuję o postepach prac czy dalszych planach.
     `,
         steps: [
-            'PL Curabitur ornare neque non nibh dictum dignissim. Sed bibendum, risus quis cursus dignissim, mauris purus ultricies nisl, at lacinia ex orci at risus',
-            'PL Vivamus tempus enim at bibendum consequat. Integer gravida, dui sit amet egestas pellentesque',
-            'PL Urabitur ornare neque non nibh dictum dignissim. Sed bibendum, risus quis cursus dignissim',
-            'PL Proin iaculis turpis ornare, blandit lorem sed, facilisis libero',
+            'Wstępna wycena na podstawie uzyskanych informacji',
+            'Akceptacja wstępnej wyceny oraz orientacyjny termin rozpoczęcia realizacji',
+            'Przygotowanie ostatecznej, aktualnej wyceny tuż przed rozpoczeciem projektu',
+            'Akceptacja ostatecznej wyceny i wykonanie projektu',
+            'Gotowe! Wysyłam zlecenie lub odbierasz je osobiście',
         ],
+        summary: `
+        Zmiana planów w trakcie trwania projektu? Nie martw się, to normalna sprawa - dlatego nie wymagam żadnych zaliczek ani zadatków.
+        Płatność następuje dopiero po tym, jak wykonam zamówienie.
+        `,
     },
 
     gallery: {
         title: 'Moje projekty',
         action: 'Zobacz więcej',
         description: `
-            Curabitur ornare neque non nibh dictum dignissim. Sed bibendum, risus quis cursus dignissim, mauris purus ultricies nisl, at lacinia ex orci at risus.
-            Vivamus tempus enim at bibendum consequat. Integer gravida, dui sit amet egestas pellentesque.
+           Oto kilka zdjęć z realizacji projektów - na różnych etapach.
+           Jeśli jesteś ciekawy ich dalszej historii, koniecznie zerknij mojego Facebooka.
         `,
         images: [
-            { title: 'Skórzana bransoletka z miejscem na fiolki', imgName: '1' },
-            { title: 'Mosiężne szpilki z naturalnym fioletowym jadeitem', imgName: '2' },
-            { title: 'Mosiężne szpilki z naturalnym niebieskiem jadeitem', imgName: '3' },
-            { title: 'Mosiężne szpilki z naturalną perłą rzeczną', imgName: '4' },
-            { title: 'Mosiężne szpilki z naturalnym czerownym jadeitem', imgName: '5' },
-            { title: 'Piasta i napinacze liny do historycznego namiotu', imgName: '6' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 7', imgName: '1' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 8', imgName: '1' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 9', imgName: '1' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 10', imgName: '1' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 11', imgName: '1' },
-            { title: 'Curabitur ornare neque non nibh dictum dignissim. 12', imgName: '1' },
+            { title: 'Skórzana bransoletka z miejscem na fiolki', imgName: '1.jpg' },
+            { title: 'Mosiężne szpilki z naturalnym fioletowym jadeitem', imgName: '2.jpg' },
+            { title: 'Mosiężne szpilki z naturalnym niebieskiem jadeitem', imgName: '3.jpg' },
+            { title: 'Mosiężne szpilki z naturalną perłą rzeczną', imgName: '4.jpg' },
+            { title: 'Mosiężne szpilki z naturalnym czerownym jadeitem', imgName: '5.jpg' },
+            { title: 'Piasta i napinacze liny do historycznego namiotu', imgName: '6.jpg' },
+            { title: 'Pasek z klamrą', imgName: '7.jpg' },
+            { title: 'Duży sakson - 4m na 7m', imgName: '8.jpg' },
+            { title: 'Bukłak w trakcie szycia', imgName: '9.jpg' },
+            { title: 'Przelotka skórzana przyszyta do namiotu', imgName: '10.jpg' },
+            { title: 'Mosiężne szpilki z naturalnym kamieniem', imgName: '11.jpg' },
+            { title: 'Namioty traperskie 18 wiek', imgName: '12.jpg' },
         ],
     },
 
@@ -97,7 +108,7 @@ export const TRANSLATIONS_PL: TTranslations = {
 
     footer: {
         title: 'Daj mi znać!',
-        email: 'twoj-email@gmail.com',
+        email: 'kramtomka@gmail.com',
         author: 'Created by Marta Zażlak, 2023',
         authorLink: 'https://www.linkedin.com/in/marta-zazlak/',
         action: 'Obserwuj mnie na Facebook',

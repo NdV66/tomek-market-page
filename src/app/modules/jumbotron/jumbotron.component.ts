@@ -7,8 +7,4 @@ import { WithTranslationsComponent } from 'app/components';
     templateUrl: './jumbotron.component.html',
     styleUrls: ['./jumbotron.component.less'],
 })
-export class JumbotronComponent extends WithTranslationsComponent {
-    public buildSloganImagePath(imgName: string) {
-        return `assets/${imgName}.png`;
-    }
-}
+export class JumbotronComponent extends WithTranslationsComponent {}

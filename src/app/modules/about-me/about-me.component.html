@@ -1,6 +1,7 @@
 <app-main-title title={{translations.aboutMe.title}}></app-main-title>
 
 <app-section-wrapper>
-    <p nz-typography>{{translations.aboutMe.description}}</p>
+    <p nz-typography [innerHTML]="translations.aboutMe.description"></p>
+    <p nz-typography>{{translations.aboutMe.preSummary}}</p>
     <h5 nz-typography>{{translations.aboutMe.summary}}</h5>
 </app-section-wrapper>
